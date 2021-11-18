@@ -10,10 +10,9 @@
 
 ## 概要
 
-フロントエンド、バックエンドにおいて新規開発フェーズから保守運用まで幅広く経験。  
-開発環境や仕組み化を通してチームが快適に開発できる状況をつくるのが好きです。
-
-<!-- モーショングラフィックスや3Dに -->
+フロントエンド、バックエンド、モバイル開発において新規立ち上げフェーズから保守運用まで幅広く経験しました。  
+開発環境や仕組み化を通してチームが快適に開発できる状況をつくるのが好きです。  
+モーショングラフィックスや 3D に興味があり、2022 年はシェーダーを専門的に突き詰めていきます。
 
 ## スキル
 
@@ -23,7 +22,7 @@ TypeScript | JavaScript | Swift
 
 ### フレームワーク等
 
-Next.js | React | Redux | Socket.IO | GSAP | Three.js | p5.js | React Native
+Next.js | React | Redux | NestJS | Express | Socket.IO | GSAP | Three.js | p5.js | React Native
 
 ### RDB/NoSQL 等
 
@@ -39,13 +38,13 @@ GitHub | GitHub Actions | CircleCI | Sentry | Stripe | Agora | Heroku | Vercel |
 
 ### その他
 
-Docker | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI
+Docker | Terraform | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI | Figma | Blender
 
 ## 主な業務経歴
 
-### 通話サービススタートアップの新規立ち上げ (2021 年)
+### 通話サービス系スタートアップの新規立ち上げ (2021 年)
 
-【担当業務】アーキテクチャ設計/フロントエンド実装/API 開発/DevOps 基盤構築/チームマネジメント
+【担当業務】アーキテクチャ設計/API 開発/DevOps 基盤構築/チームマネジメント/フロントエンド実装
 
 ### スマートロック/不動産管理アプリ開発(2020 年 〜 2021 年)
 
