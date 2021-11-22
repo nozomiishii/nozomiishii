@@ -42,7 +42,7 @@ Docker | Terraform | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI
 
 ## 主な業務経歴
 
-### 通話サービス系スタートアップの新規立ち上げ (2021 年)
+### 通話サービス系スタートアップの新規立ち上げ　(2021 年)
 
 【担当業務】アーキテクチャ設計/API 開発/DevOps 基盤構築/チームマネジメント/フロントエンド実装
 
@@ -52,7 +52,14 @@ Docker | Terraform | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI
 - Next.js、Vercel を使用した SSR アプリケーション開発
 - Agora、SocketIO を使用した通話機能開発
 
-### スマートロック/不動産管理アプリ開発(2020 年 〜 2021 年)
+### クラウドファンディングリターン管理アプリ開発　(2021 年)
+
+【担当業務】PWA での Web アプリケーション制作
+
+- Heroku、Postgres を使用したデータベース構築
+- Next.js を使用した SSR アプリケーションを開発、PWA 化
+
+### スマートロック/不動産管理アプリ開発　(2020 年 〜 2021 年)
 
 【担当業務】自立分散型システムを用いた新規機能開発/現行機能の保守運用
 
