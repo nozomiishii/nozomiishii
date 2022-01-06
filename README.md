@@ -17,7 +17,7 @@
 将来の私はラズベリーパイを使った電子工作から、3D モデリングまで幅広くコンピュータについて楽しみ学び続けています。
 その中でも特に触って遊べるにこだわってエンターテイメントな分野を深く掘り下げていきます。
 自分のプロダクトで人の生活を豊かにしたりちょっとした暇つぶしに遊んもらえたりして幸せだなって思いながらエンジニアをしています。
-さらに欲を言ったら開発スタイルと気の合う仲間を見つけチームで人に感動を与えれたら最高です。
+そして欲を言ったら開発スタイルと気の合う仲間を見つけチームで人に感動を与えれたら最高です。
 
 ## スキル
 
@@ -43,7 +43,7 @@ GitHub | GitHub Actions | CircleCI | Sentry | Stripe | Agora | Heroku | Vercel |
 
 ### その他
 
-Docker | Terraform | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI | Figma | Blender
+Docker | Terraform | Nx | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI | Figma | Blender
 
 ## 主な業務経歴
 
@@ -51,6 +51,7 @@ Docker | Terraform | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI
 
 【担当業務】アーキテクチャ設計/API 開発/DevOps 基盤構築/チームマネジメント/フロントエンド実装
 
+- Nx を使った Mono Repo 開発
 - NestJS、Postgres、OpenAPI を使用した API First での RestAPI 設計、開発
 - Jest、Cypress、Docker、Github Actions、Cloud Run を使用した CI/CD 構築
 - プロジェクトの進捗管理
