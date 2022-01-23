@@ -23,7 +23,7 @@
 
 ### 言語
 
-TypeScript | JavaScript | Swift
+TypeScript | JavaScript | Swift | C# | Solidity
 
 ### フレームワーク等
 
@@ -43,7 +43,7 @@ GitHub | GitHub Actions | CircleCI | Sentry | Stripe | Agora | Heroku | Vercel |
 
 ### その他
 
-Docker | Terraform | Nx | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI | Figma | Blender
+Docker | Terraform | Nx | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI | Figma | Blender | Unity
 
 ## 主な業務経歴
 
