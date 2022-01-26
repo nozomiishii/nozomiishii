@@ -27,7 +27,7 @@ TypeScript | JavaScript | Swift | C# | Solidity
 
 ### フレームワーク等
 
-Next.js | React | Redux | NestJS | Express | Socket.IO | GSAP | Three.js | p5.js | React Native
+Next.js | React | Redux | Node.js| NestJS | Express | Socket.IO | GSAP | Three.js | p5.js | React Native
 
 ### RDB/NoSQL 等
 
