@@ -47,11 +47,18 @@ Docker | Terraform | Nx | TailwindCSS | Prisma | Cypress | Jest | Supertest | Op
 
 ## 主な業務経歴
 
+### NFT マーケットの新規開発　(2022 年 3 月 )
+
+【担当業務】フロントエンド実装開発
+
+- TurboRepo を使用した Mono Repo 開発
+- GraphQL, SWR での API 実装
+
 ### 通話サービス系スタートアップの新規立ち上げ　(2021 年 4 月 〜 2022 年 1 月)
 
 【担当業務】アーキテクチャ設計/API 開発/DevOps 基盤構築/チームマネジメント/フロントエンド実装
 
-- Nx を使った Mono Repo 開発
+- Nx を使用した Mono Repo 開発
 - NestJS、Postgres、OpenAPI を使用した API First での RestAPI 設計、開発
 - Jest、Cypress、Docker、Github Actions、Cloud Run を使用した CI/CD 構築
 - プロジェクトの進捗管理
