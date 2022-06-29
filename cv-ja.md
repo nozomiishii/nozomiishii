@@ -32,7 +32,7 @@ TypeScript | Bash | Rust
 
 ### フレームワーク 等
 
-Next.js | React | Redux | Recoil | Node.js| NestJS | Express | Socket.IO | GSAP | Three.js | p5.js | React Native
+Next.js | React | Redux | Redux Toolkit | Recoil | SWR | React Query | Node.js | NestJS | Express | Socket.IO | GSAP | Three.js | p5.js | React Native
 
 ### RDB/NoSQL 等
 
@@ -44,11 +44,11 @@ Cloud Functions | Stackdriver Monitoring | Cloud Storage | Cloud Run | Container
 
 ### SaaS/PaaS 等
 
-GitHub | GitHub Actions | CircleCI | Sentry | Stripe | Agora | Heroku | Vercel | SendGrid | Pusher
+GitHub | GitHub Actions | CircleCI | Sentry | Stripe | Agora | Heroku | Vercel | SendGrid | Pusher | TinyMCE
 
 ### その他
 
-Docker | Terraform | Nx | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI | Figma
+Docker | Terraform | Nx | Turborepo | React Hook Form | TailwindCSS | Prisma | TypeORM | Cypress | Jest | Supertest | OpenAPI | Figma
 
 ## 主な業務経歴
 
@@ -59,8 +59,8 @@ Docker | Terraform | Nx | TailwindCSS | Prisma | Cypress | Jest | Supertest | Op
 - Next.js、React を使用した SPA 開発
 - TurboRepo を使用した Mono Repo 開発
 - OpenAPI を使用した API 設計
-  <!-- - GraphQL, SWR での API 実装 -->
-  <!-- - Hygen を使用したコードテンプレート作成 -->
+- SWR、Recoil を使用した状態管理
+<!-- - Hygen を使用したコードテンプレート作成 -->
 
 <!-- 新規プロジェクト立ち上げから業務委託として参画し、初めのリモートでのチーム開発でしたが大きな問題にも見舞われることなく無事リリースすることができました。
 Hygen を導入することで Storybook やコンポーネントの作成をテンプレート化することで、のちの運用フェーズや新規機能案件の際に担当が変わってもコード内容が変わらないような工夫をしました。
