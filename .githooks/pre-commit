@@ -11,7 +11,8 @@ main() {
       cv-ja.md)
         printf "\n😼 Pre commit hook..."
         printf "🤖 Generating pdf..."
-        yarn pdf
+        yarn pdf:ja
+        git add cv-ja.pdf
         ;;
       *) ;;
     esac
