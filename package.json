@@ -1,6 +1,8 @@
 {
   "name": "cv",
   "version": "1.0.0",
+  "author": "Nozomi Ishii",
+  "license": "UNLICENSED",
   "description": "Nozomi Ishii's Curriculum Vitae",
   "main": "README.md",
   "scripts": {
@@ -10,9 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/nozomiishii/cv.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/nozomiishii/cv/issues"
   },
