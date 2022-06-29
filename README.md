@@ -13,20 +13,20 @@
 
 フロントエンド、バックエンド、モバイル開発において新規立ち上げフェーズから保守運用まで幅広く経験しました。  
 開発環境や仕組み化を通してチームが快適に開発できる状況をつくるのが好きです。  
-最近はモーショングラフィックスや 3D に惹かれていて、2022 年はシェーダーを専門的に突き詰めていきます。  
-将来はラズベリーパイを使った電子工作から、3D モデリングまで幅広くコンピュータについて楽しみ学び続けてたらと思います。  
+最近はモーショングラフィックスや3Dに惹かれていたり、ブロックチェーンやRustに魅了されたりしています。  
+将来はラズベリーパイを使った電子工作から、3Dモデリングまで幅広くコンピュータについて楽しみ学び続けてたらと思います。  
 自分のプロダクトでだれかの生活が豊かになったり、ちょっとした暇つぶしに遊んもらえたりしたら幸せです。  
 欲を言ったら開発スタイルと気の合う仲間を見つけチームでいいもの作りたいです。
 
 ## スキル
 
-### 言語
+### 言語 等
 
-TypeScript | JavaScript | Swift | C# | Solidity
+TypeScript | Bash | Rust
 
-### フレームワーク等
+### フレームワーク 等
 
-Next.js | React | Redux | Node.js| NestJS | Express | Socket.IO | GSAP | Three.js | p5.js | React Native
+Next.js | React | Redux | Recoil | Node.js| NestJS | Express | Socket.IO | GSAP | Three.js | p5.js | React Native
 
 ### RDB/NoSQL 等
 
@@ -42,16 +42,17 @@ GitHub | GitHub Actions | CircleCI | Sentry | Stripe | Agora | Heroku | Vercel |
 
 ### その他
 
-Docker | Terraform | Nx | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI | Figma | Blender | Unity
+Docker | Terraform | Nx | TailwindCSS | Prisma | Cypress | Jest | Supertest | OpenAPI | Figma
 
 ## 主な業務経歴
 
-### NFT マーケットの新規開発　(2022 年 3 月 )
+### NFT マーケットの新規開発　(2022 年 3 月 〜 )
 
-【担当業務】フロントエンド実装開発
+【担当業務】フロントエンド開発/API設計
 
 - Next.js、React を使用した SPA 開発
-  <!-- - TurboRepo を使用した Mono Repo 開発 -->
+- TurboRepo を使用した Mono Repo 開発
+- OpenAPI を使用した API 設計
   <!-- - GraphQL, SWR での API 実装 -->
   <!-- - Hygen を使用したコードテンプレート作成 -->
 
@@ -61,7 +62,7 @@ GraphQL, SWR, TurboRepo など今まで使用したことがない技術もす�
 
 ### 通話サービス系スタートアップの新規立ち上げ　(2021 年 4 月 〜 2022 年 1 月)
 
-【担当業務】アーキテクチャ設計/API 開発/DevOps 基盤構築/チームマネジメント/フロントエンド実装
+【担当業務】アーキテクチャ設計/API開発/DevOps基盤構築/チームマネジメント/フロントエンド開発
 
 - Nx を使用した Mono Repo 開発
 - NestJS、Postgres、OpenAPI を使用した API First での RestAPI 設計、開発
