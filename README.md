@@ -6,7 +6,8 @@
 | ------ | ----------------------------------------------- |
 | 名前   | 石井　希                                        |
 | 居住地 | 東京都                                          |
-| Web    | [nozomiishii.dev](https://www.nozomiishii.dev/) |
+| GitHub | [https://github.com/nozomiishii](https://github.com/nozomiishii) |
+| Web    | [https://nozomiishii.dev](https://nozomiishii.dev/) |
 |        |                                                 |
 
 ## 概要
