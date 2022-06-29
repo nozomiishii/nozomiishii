@@ -1,0 +1,23 @@
+#!/bin/bash
+set -Ceu
+
+# sed 's| |\\ |g'で Google Drive てきな空白の入ったpathを Google\ Drive にしてくれる
+files=$(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g')
+
+main() {
+
+  for file in $files; do
+    case "$file" in
+      cv-ja.md)
+        printf "\n😼 Pre commit hook..."
+        printf "🤖 Generating pdf..."
+        yarn pdf
+        ;;
+      *) ;;
+    esac
+  done
+
+  exit 0
+}
+
+main

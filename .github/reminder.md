@@ -4,7 +4,7 @@ assignees: nozomiishii
 labels: enhancement
 ---
 
-## The quarter is over.
+## The quarter is over
 
 Please describe your accomplishments during this period in your CV
 
