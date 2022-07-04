@@ -1,4 +1,4 @@
-# Nozomi Ishii's Curriculum Vitae
+# Curriculum Vitae
 
 <div align="center">
   <img src="https://media.giphy.com/media/SabSYEpsVh0di/giphy.gif" alt="thinking" />
