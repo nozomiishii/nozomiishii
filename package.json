@@ -1,26 +1,27 @@
 {
   "name": "cv",
   "version": "1.0.0",
-  "author": "Nozomi Ishii",
-  "license": "UNLICENSED",
   "description": "Nozomi Ishii's Curriculum Vitae",
-  "main": "README.md",
-  "scripts": {
-    "pdf:ja": "md-to-pdf cv-ja.md"
+  "homepage": "https://github.com/nozomiishii/cv#readme",
+  "bugs": {
+    "url": "https://github.com/nozomiishii/cv/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nozomiishii/cv.git"
   },
-  "bugs": {
-    "url": "https://github.com/nozomiishii/cv/issues"
+  "license": "UNLICENSED",
+  "author": "Nozomi Ishii",
+  "main": "README.md",
+  "scripts": {
+    "pdf:ja": "md-to-pdf cv-ja.md"
   },
-  "homepage": "https://github.com/nozomiishii/cv#readme",
   "dependencies": {
     "md-to-pdf": "^5.0.1"
   },
   "devDependencies": {
     "prettier": "~2.7.1",
+    "prettier-plugin-packagejson": "~2.2.18",
     "prettier-plugin-sh": "~0.12.4"
   }
 }
