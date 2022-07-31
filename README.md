@@ -24,14 +24,18 @@
 
 ## Getting Started
 
+Install node_modules
+
+```zsh
+  yarn install
+```
+
+<details>
+<summary>githooks (included in preinstall scripts already)</summary>
 Activate git hooks
 
 ```zsh
   ./scripts/setup.sh
 ```
 
-Install node_modules
-
-```zsh
-  yarn install
-```
+</details>
