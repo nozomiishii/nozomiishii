@@ -14,7 +14,8 @@
   "author": "Nozomi Ishii",
   "main": "README.md",
   "scripts": {
-    "pdf:ja": "md-to-pdf cv-ja.md"
+    "pdf:ja": "md-to-pdf cv-ja.md",
+    "preinstall": "npx -y only-allow yarn"
   },
   "dependencies": {
     "md-to-pdf": "^5.0.1"
