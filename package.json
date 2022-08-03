@@ -14,6 +14,7 @@
   "author": "Nozomi Ishii",
   "main": "README.md",
   "scripts": {
+    "format": "prettier --write '**/*' --ignore-unknown --ignore-path .gitignore",
     "preinstall": "npx -y only-allow yarn",
     "pdf:ja": "md-to-pdf cv-ja.md",
     "setup": "./scripts/setup.sh"
