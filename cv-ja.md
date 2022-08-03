@@ -1,18 +1,19 @@
-<!-- 
+<!--
 ⚠️: 依存関係あり！
 file path変更したら以下も変更すること
-https://github.com/nozomiishii/nozomiishii/blob/main/README.md 
+https://github.com/nozomiishii/nozomiishii/blob/main/README.md
 -->
+
 # 業務経歴書
 
 ## 基本情報
 
-|        |                                                 |
-| ------ | ----------------------------------------------- |
-| 名前   | 石井　希                                        |
-| 居住地 | 東京都                                          |
+|        |                                                                  |
+| ------ | ---------------------------------------------------------------- |
+| 名前   | 石井　希                                                         |
+| 居住地 | 東京都                                                           |
 | GitHub | [https://github.com/nozomiishii](https://github.com/nozomiishii) |
-| Web    | [https://nozomiishii.dev](https://nozomiishii.dev/) |
+| Web    | [https://nozomiishii.dev](https://nozomiishii.dev/)              |
 
 ## 概要
 
