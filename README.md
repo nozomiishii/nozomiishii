@@ -9,7 +9,7 @@
 
 <!-- shields -->
 <div align="center">
-  <a target="_blank" href="https://open.vscode.dev/nozomiishii/dev">
+  <a target="_blank" href="https://open.vscode.dev/nozomiishii/cv">
     <img alt="Open in VSCode" src="https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20VSCode&labelColor=2c2c32&color=007acc&logoColor=007acc">
   </a>
   <a target="_blank" href="https://twitter.com/nozomiishii_dev">
