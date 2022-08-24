@@ -38,7 +38,7 @@ Next.js | React | Redux | Redux Toolkit | Recoil | SWR | React Query | React Hoo
 
 #### アニメーション
 
-GSAP | Three.js | p5.js
+GSAP | Three.js | p5.js | Framer Motion
 
 #### Backend
 
