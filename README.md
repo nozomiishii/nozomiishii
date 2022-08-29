@@ -30,8 +30,8 @@ Install node_modules
 yarn install
 ```
 
-Activate git hooks
+Activate Lefthook(git hooks)
 
 ```sh
-yarn setup
+yarn prepare
 ```
