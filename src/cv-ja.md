@@ -1,7 +1,8 @@
 <!--
 ⚠️: 依存関係あり！
 file path変更したら以下も変更すること
-https://github.com/nozomiishii/nozomiishii/blob/main/README.md
+- [nozomiishii](https://github.com/nozomiishii/nozomiishii/blob/main/README.md)
+- [cv](../README.md)
 -->
 
 # 業務経歴書

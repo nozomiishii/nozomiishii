@@ -20,7 +20,7 @@
 
 ## CV | 職務経歴書
 
-- [日本語](https://github.com/nozomiishii/cv/blob/main/cv-ja.md)
+- [日本語](https://github.com/nozomiishii/cv/blob/main/src/cv-ja.md)
 
 ## Getting Started
 
