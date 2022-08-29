@@ -14,8 +14,8 @@ pre-commit:
 
     generate-pdf:
       files: git diff --name-only --staged
-      glob: 'src/ja/cv.md'
-      run: yarn pdf:ja && git add src/ja/cv.pdf
+      glob: 'src/cv-ja.md'
+      run: yarn pdf:ja && git add src/cv-ja.pdf
 
 commit-msg:
   commands:
