@@ -13,6 +13,7 @@ pre-commit:
       run: npx -y markdownlint-cli2 {staged_files} && git add {staged_files}
 
     generate-pdf:
+      files: git diff --name-only --staged
       glob: 'src/ja/cv.md'
       run: yarn pdf:ja && git add src/ja/cv.pdf
 
