@@ -34,7 +34,7 @@ TypeScript | Rust
 
 #### Frontend
 
-Next.js | React | Redux | Redux Toolkit | Recoil | SWR | React Query | React Hook Form | TailwindCSS
+Next.js | React | Redux | Redux Toolkit | Recoil | SWR | TanStack Query | React Hook Form | TailwindCSS
 
 #### アニメーション
 
@@ -54,15 +54,15 @@ Cypress | Jest | Supertest
 
 ### RDB/NoSQL
 
-PostgreSQL | MySQL | Firebase
+PostgreSQL | MySQL | Redis
 
 ### GCP
 
-Cloud Functions | Stackdriver Monitoring | Cloud Storage | Cloud Run | Container Registry
+Cloud Run | Cloud Storage | Stackdriver Monitoring | Cloud Logging | Container Registry | Cloud Functions | Firebase
 
 ### Monorepo
 
-Nx | TurboRepo | Yarn Workspaces
+Yarn Workspaces | TurboRepo | Nx
 
 ### CI/CD
 
