@@ -17,24 +17,22 @@ https://github.com/nozomiishii/nozomiishii/blob/main/README.md
 
 ## 概要
 
-フロントエンド、バックエンド、モバイル開発において新規立ち上げフェーズから保守運用まで幅広く経験しました。  
-開発環境や仕組み化を通してチームが快適に開発できる状態をつくるのが好きです。  
-最近はRustでのブロックチェーンや組み込み開発に魅了されています。  
-将来は電子工作といった低レイアーから、3Dモデリングなどのデザインまで幅広くコンピュータについて楽しみ学び続けてたらと思います。  
-自分のプロダクトでだれかの生活が豊かになったり、ちょっとした暇つぶしに遊んもらえたりしたら幸せです。  
-欲を言ったら開発スタイルと気の合う仲間を見つけチームでいいもの作りたいです。
+- フロントエンド、バックエンド、モバイル開発において新規立ち上げフェーズから保守運用まで幅広く経験しました
+- プロジェクトリーダーとしてチームマネージメントやコードレビュー、プロジェクトの進捗なども携わられせていただきました
+- ドキュメントは読まれにくい、人的ミスは避けられないという実体験のもと、なるべく文章ではなくコードで開発環境や仕組みを作ることで誰が書いても同じコードスタイルになるように工夫したりチームが快適に開発できる状態をつくるのが好きです
+- 最近はRustでの組み込み開発にも関心が高く、将来は電子工作といった低レイアーから、3Dモデリングなどのデザインまで幅広くコンピュータについて一生楽しみ学び続けてたらと思います
 
 ## 技術
 
 ### 言語
 
-TypeScript | Rust
+TypeScript | Bash | Rust
 
 ### フレームワーク
 
 #### Frontend
 
-Next.js | React | Redux | Redux Toolkit | Recoil | SWR | TanStack Query | React Hook Form | TailwindCSS
+Next.js | React | Redux | Redux Toolkit | Recoil | SWR | TanStack Query | TanStack Table | React Hook Form | React Icons | TailwindCSS
 
 #### アニメーション
 
@@ -50,7 +48,7 @@ React Native
 
 #### Test
 
-Cypress | Jest | Supertest
+Cypress | Jest | Testing Library | Supertest
 
 ### RDB/NoSQL
 
@@ -64,13 +62,24 @@ Cloud Run | Cloud Storage | Stackdriver Monitoring | Cloud Logging | Container R
 
 Yarn Workspaces | TurboRepo | Nx
 
-### CI/CD
-
-GitHub Actions | CircleCI
-
 ### その他
 
-Docker | Terraform | Sentry | Heroku | Vercel | SendGrid | Pusher | TinyMCE | Stripe | Agora | Figma
+GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | SendGrid | Pusher | TinyMCE | Stripe | Agora | Figma
+
+## 強みが発揮されやすい業務
+
+- React Component設計開発
+- LinterやFormatterの導入
+- Git Hooksの導入
+- アニメーション実装
+- Monorepo開発
+- StorybookでのUIカタログ作成
+- 単体テストや統合テストの導入
+- CIサービスの導入
+- デプロイの自動化
+- 監視ダッシュボードの導入
+- 通話サービスの導入
+- ソケット通信の実装
 
 ## 主な業務経歴
 
@@ -94,7 +103,7 @@ Recoil, SWR, TurboRepoなど今まで使用したことがない技術もすば�
 #### 【担当業務】アーキテクチャ設計/API開発/DevOps基盤構築/チームマネジメント/フロントエンド開発
 
 - Nxを使用したMono Repo開発
-- NestJS、Postgres、OpenAPIを使用したAPI FirstでのRestAPI設計、開発
+- NestJS、Postgres、OpenAPIを使用したSchema FirstでのRestAPI設計、開発
 - Jest、Cypress、Docker、GitHub Actions、Cloud Runを使用したCI/CD構築
 - プロジェクトの進捗管理
 - Next.js、Vercelを使用したSSRアプリケーション開発

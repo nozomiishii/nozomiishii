@@ -12,8 +12,8 @@ rules:
   '@textlint-ja/no-synonyms': true
 
   # 1文の長さは100文字以下 https://github.com/textlint-rule/textlint-rule-sentence-length
-  sentence-length:
-    max: 100
+  # sentence-length:
+  #   max: 100
 
   # 日付と曜日があってるか https://github.com/textlint-rule/textlint-rule-date-weekday-mismatch
   date-weekday-mismatch: true
