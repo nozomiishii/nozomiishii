@@ -14,7 +14,6 @@ file path変更したら以下も変更すること
 | 名前   | 石井　希                         |
 | 居住地 | 東京都                           |
 | GitHub | <https://github.com/nozomiishii> |
-| Web    | <https://www.nozomiishii.dev/>   |
 
 ## 概要
 
@@ -72,6 +71,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | Send
 ## 強みが発揮されやすい業務
 
 - React Component設計開発
+- TailwindCSSの導入、style開発
 - LinterやFormatterの導入
 - Git Hooksの導入
 - アニメーション実装
@@ -80,7 +80,10 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | Send
 - 単体テストや統合テストの導入
 - CIサービスの導入
 - デプロイの自動化
+- GCPでのアプリケーション導入、運用
 - 監視ダッシュボードの導入
+- 多言語化
+- アクセシビリティに配慮した設計
 - 通話サービスの導入
 - ソケット通信の実装
 
@@ -93,6 +96,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | Send
 - Next.js、Reactを使用したSPA開発
 - TurboRepoを使用したMono Repo開発
 - OpenAPIを使用したAPI設計
+- TailwindCSSの導入
 - SWR、Recoilを使用した状態管理
 - チームリーダーとして他のプロジェクトとの進捗共有、API設計のレビュー
 
@@ -111,12 +115,16 @@ Recoil, SWR, TurboRepoなど今まで使用したことがない技術もすば�
 - プロジェクトの進捗管理
 - Next.js、Vercelを使用したSSRアプリケーション開発
 - Agora、SocketIOを使用した通話機能開発
+- TailwindCSSの導入、技術指導
+- Vercel, AWSからのGCP移行
+- GCPでのアプリケーション導入、運用
 - Framer Motionを使用したアニメーション実装
 
 まったく何もない状態から新規事業開発として参加し社内社外を含めたエンジニアチームへのマネジメントやスケジュール管理、未経験のエンジニアへの技術指導をしながら開発を進めていきました。  
 盛り込みたい機能は数多く出てきましたが人的リソースや時間は限られているため、ユーザーが初期リリース時に必要な通話機能に重点を置いた要件定義や技術制定を行い開発実装し無事リリースすることができました。  
 また、APIドキュメントやER図を自動作成し機能仕様が常にしっかりと更新されることで今後人数が増えても属人化しにくいように工夫しました。  
-CI/CDの導入はもちろんのこと、OpenAPIから生成された型定義ライブラリでフロントエンド、バックエンドを連携しました。型の不整合防止やバックエンドの開発を待たずにフロントエンドが開発を進められる環境を整え開発スピードを向上することができました。
+CI/CDの導入はもちろんのこと、OpenAPIから生成された型定義ライブラリでフロントエンド、バックエンドを連携しました。型の不整合防止やバックエンドの開発を待たずにフロントエンドが開発を進められる環境を整え開発スピードを向上することができました。  
+Reactで使われるCSSの開発スタイルはModuleCSS, Styled Component, emotion, TailwindCSSと主要な開発を経験した上で最も開発スピードが期待でき、コードの統一感が出るTailwindCSSを採用しました。当時はまだ使ってるエンジニアが少なかったため勉強会を開いてチーム内の知識が共有されるように心がけました。
 
 ### クラウドファンディングリターン管理アプリケーション開発　(2021年 6月)
 
@@ -136,7 +144,11 @@ CI/CDの導入はもちろんのこと、OpenAPIから生成された型定義�
 - Reactを使用したSPAアプリケーション開発
 - React Nativeを使用したクロスプラットフォーム開発、保守運用
 - Swiftを使用したiOS開発
-- Express、Firebaseを使用したRestAPI開発、保守運用
+- Expressを使用したRestAPI開発
+- Firebaseを使用したアプリケーションの保守運用
+- Cloud Functionsを使用したサーバレスアプリケーション実装
+- GCPでのアプリケーション監視
+- Sentryでのアプリケーション監視
 
 業務未経験からReact Native、Swiftをキャッチアップしプロダクトの保守運用しました。  
 営業部門、ファームウェア部門、デザイナー部門、QA部門と連携をとりながらスマートロックの設置導線やスマートロックのユーザー権限の制御を実装を行い、2週間サイクルでのリリースをこなしました。  
