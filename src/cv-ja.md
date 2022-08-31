@@ -24,7 +24,7 @@ file path変更したら以下も変更すること
 
 ## 技術
 
-- 現在も実装できる技術だけを列挙しています。
+- 現在も実装できる技術だけを列挙しています
 
 ### 言語
 
@@ -71,7 +71,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | Send
 ## 強みが発揮されやすい業務
 
 - React Component設計開発
-- TailwindCSSの導入、style開発
+- TailwindCSSの導入、開発
 - LinterやFormatterの導入
 - Git Hooksの導入
 - アニメーション実装
