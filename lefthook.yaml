@@ -22,6 +22,8 @@ pre-commit:
       run: yarn pdf:ja && git add src/cv-ja.pdf
 
 commit-msg:
+  parallel: true
+
   commands:
     commitlint:
       run: npx commitlint --edit
@@ -32,6 +34,7 @@ commit-msg:
 
 post-merge:
   piped: true
+
   commands:
     npm:
       files: git diff --name-only HEAD main
