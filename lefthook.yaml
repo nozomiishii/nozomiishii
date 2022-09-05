@@ -26,6 +26,10 @@ commit-msg:
     commitlint:
       run: npx commitlint --edit
 
+  scripts:
+    'spell-check.sh':
+      runner: bash
+
 post-merge:
   piped: true
   commands:
