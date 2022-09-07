@@ -34,7 +34,7 @@ TypeScript | Bash | Rust
 
 #### Frontend
 
-Next.js | React | Redux | Redux Toolkit | Recoil | SWR | TanStack Query | TanStack Table | React Hook Form | React Icons | TailwindCSS
+Next.js | React | Redux | Redux Toolkit | Recoil | SWR | TanStack Query | TanStack Table | React Hook Form | Zod | React Icons | TailwindCSS
 
 #### アニメーション
 
