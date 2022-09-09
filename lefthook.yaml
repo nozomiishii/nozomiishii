@@ -16,10 +16,15 @@ pre-commit:
       glob: '*.md'
       run: npx -y textlint --fix {staged_files} && git add {staged_files}
 
-    generate-pdf:
+    generate-pdf-cv:
       files: git diff --name-only --staged
       glob: 'src/cv-ja.md'
-      run: yarn pdf:ja && git add src/cv-ja.pdf
+      run: npx -y md-to-pdf src/cv-ja.md && git add src/cv-ja.pdf
+
+    generate-pdf-pay:
+      files: git diff --name-only --staged
+      glob: 'src/pay/pay-ja.md'
+      run: npx -y md-to-pdf src/pay/pay-ja.md && git add src/pay/pay-ja.pdf
 
 commit-msg:
   parallel: true
