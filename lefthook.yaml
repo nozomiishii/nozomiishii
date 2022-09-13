@@ -6,15 +6,15 @@ pre-commit:
 
   commands:
     format:
-      run: npx -y prettier --ignore-unknown --write {staged_files} && git add {staged_files}
+      run: npx -y prettier --ignore-unknown --write {staged_files}
 
     lint-markdown:
       glob: '*.md'
-      run: npx -y markdownlint-cli2 {staged_files} && git add {staged_files}
+      run: npx -y markdownlint-cli2 {staged_files}
 
     lint-textlint:
       glob: '*.md'
-      run: npx -y textlint --fix {staged_files} && git add {staged_files}
+      run: npx -y textlint --fix {staged_files}
 
     generate-pdf-cv:
       files: git diff --name-only --staged
