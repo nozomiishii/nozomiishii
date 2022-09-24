@@ -28,7 +28,7 @@ file path変更したら以下も変更すること
 
 ### 言語
 
-TypeScript | Bash | Rust
+TypeScript | Rust
 
 ### フレームワーク
 
