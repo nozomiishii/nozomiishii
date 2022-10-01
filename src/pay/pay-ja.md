@@ -4,9 +4,12 @@
 
 - 必須技術スタック
 
-  - TailwindCSS
-  - React
   - TypeScript
+  - React
+
+- 希望技術スタック
+  - TailwindCSS
+  - Next.js
 
 ## バックエンド 5000円(税別)以上
 
