@@ -30,7 +30,6 @@
     "commitizen": "~4.2.5",
     "md-to-pdf": "~5.1.0",
     "prettier": "~2.7.1",
-    "prettier-plugin-md-nocjsp": "~1.3.0",
     "prettier-plugin-packagejson": "~2.2.18",
     "prettier-plugin-sh": "~0.12.4",
     "sudachi-synonyms-dictionary": "~11.0.0",
