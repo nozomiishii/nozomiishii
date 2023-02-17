@@ -66,7 +66,7 @@ Yarn Workspaces | Lerna | TurboRepo | Nx
 
 ### その他
 
-GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | SendGrid | Pusher | TinyMCE | Stripe | Agora | Figma | Jira |　Newt | LaunchDarkly | AG Grid
+GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | SendGrid | Pusher | TinyMCE | Stripe | Agora | Figma | Jira |　 Newt | LaunchDarkly | AG Grid
 
 ## 強みが発揮されやすい業務
 
@@ -87,25 +87,25 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | Send
 
 ## 主な業務経歴
 
-### 製造業受発注プラットフォーム開発　(2022年 10月 〜 )
+### 製造業受発注プラットフォーム開発　(2022 年 10 月 〜 )
 
-#### 【担当業務】開発環境構築/フロントエンド開発/BFF開発/バックエンド開発/現行機能の保守運用
+#### 【担当業務】開発環境構築/フロントエンド開発/BFF 開発/バックエンド開発/現行機能の保守運用
 
 - Next.jsを使用したSPA開発、保守運用
 - NestJSを使用したRest API、GraphQL、gRPC開発、保守運用
 - Rustを使用したgRPC開発、保守運用
-- Yarn Workspaceを使用したMono Repo開発
+- Yarn Workspaceを使用したMono repository開発
 - DDDでのバックエンド開発
 
 プロダクトリリース後2ヶ月目という時期にジョインしました。開発環境が十分とは言えない中、自らの知見を共有提案し、CIの設定やgithooks、zodによるスキーマバリデーション等少しでも開発者が気持ちよく開発できるように取り組みました。Storybookでの開発や環境整備、Unit Test、Component Testに力を入れリファクタリングや修正を加えやすい設計に努めました。
 実装だけではなく要件定義や仕様作成も担当し、実際にアプリを使用して頂いてるユーザーの声を聞きながら開発を進めていきました。
 
-### NFTマーケットの新規開発　(2022年 3月 〜 2022年 7月)
+### NFT マーケットの新規開発　(2022 年 3 月 〜 2022 年 7 月)
 
-#### 【担当業務】フロントエンド開発/API設計/チームリーダー
+#### 【担当業務】フロントエンド開発/API 設計/チームリーダー
 
 - Next.js、Reactを使用したSPA開発
-- TurboRepoを使用したMono Repo開発
+- TurboRepoを使用したMono repository開発
 - OpenAPIを使用したAPI設計
 - TailwindCSSの導入
 - SWR、Recoilを使用した状態管理
@@ -116,11 +116,11 @@ Recoil, SWR, TurboRepoなど今まで使用したことがない技術もすば�
 開発開始のスクリプトを少なくまとめることでチームの入れ替わりや新しいエンジニアが入ってきてもスムーズに開発が開始できるように工夫をしました。  
 また、OpenAPIをスキーマファーストで設計することでバックエンド、フロントエンドが同時に開発できるようにしたり、LintやFormatterを作り込みCIで導入することで、のちの運用フェーズや新規機能案件の際に担当が変わってもコード内容が変わらないような開発環境を整えました。
 
-### 通話サービス系スタートアップの新規立ち上げ　(2021年 4月 〜 2022年 1月)
+### 通話サービス系スタートアップの新規立ち上げ　(2021 年 4 月 〜 2022 年 1 月)
 
-#### 【担当業務】アーキテクチャ設計/API開発/DevOps基盤構築/チームマネジメント/フロントエンド開発
+#### 【担当業務】アーキテクチャ設計/API 開発/DevOps 基盤構築/チームマネジメント/フロントエンド開発
 
-- Nxを使用したMono Repo開発
+- Nxを使用したMono repository開発
 - NestJS、Postgres、OpenAPIを使用したSchema FirstでのRestAPI設計、開発
 - Jest、Cypress、Docker、GitHub Actions、Cloud Runを使用したCI/CD構築
 - プロジェクトの進捗管理
@@ -137,9 +137,9 @@ Recoil, SWR, TurboRepoなど今まで使用したことがない技術もすば�
 CI/CDの導入はもちろんのこと、OpenAPIから生成された型定義ライブラリでフロントエンド、バックエンドを連携しました。型の不整合防止やバックエンドの開発を待たずにフロントエンドが開発を進められる環境を整え開発スピードを向上することができました。  
 Reactで使われるCSSの開発スタイルはCSS Modules, Styled Component, Emotion, TailwindCSSと主要な開発を経験した上で最も開発スピードが期待でき、コードの統一感が出るTailwindCSSを採用しました。当時はまだ使ってるエンジニアが少なかったため勉強会を開いてチーム内の知識が共有されるように心がけました。
 
-### クラウドファンディングリターン管理アプリケーション開発　(2021年 6月)
+### クラウドファンディングリターン管理アプリケーション開発　(2021 年 6 月)
 
-#### 【担当業務】PWAでのWebアプリケーション制作
+#### 【担当業務】PWA での Web アプリケーション制作
 
 - Heroku、Postgresを使用したデータベース構築
 - Next.jsを使用したSSRアプリケーションを開発、PWA化
@@ -148,7 +148,7 @@ Reactで使われるCSSの開発スタイルはCSS Modules, Styled Component, Em
 2週間というタイトなスケジュール中、企業様とコミュニケーションを取りながら要件定義、設計、コーディングをすべて１人で担当し納品しました。  
 業務アプリケーションで使用ユーザーも多くないため、運用費用がかからない技術選定を行ました。時間が短い中でもユーザビリティを考え、GSAPを使ったリッチなアニメーションを取り入れ、ユーザー体験の向上を計りました。
 
-### スマートロック/不動産管理アプリケーション開発　(2020年 6月 〜 2021年 3月)
+### スマートロック/不動産管理アプリケーション開発　(2020 年 6 月 〜 2021 年 3 月)
 
 #### 【担当業務】自立分散型システムを用いた新規機能開発/現行機能の保守運用
 
