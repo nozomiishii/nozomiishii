@@ -20,7 +20,7 @@ file path変更したら以下も変更すること
 - フロントエンド、バックエンド、モバイル開発において全く0からの新規立ち上げフェーズから保守運用まで幅広く経験してきました
 - プロジェクトリーダーとしてチームマネージメントやコードレビュー、技術指導、プロジェクトの進捗なども携わられせていただきました
 - ドキュメントは読まれにくい、人的ミスは避けられないという実体験のもと、なるべく文章ではなくコードで開発環境や仕組みを作ることで誰が書いても同じコードスタイルになるように工夫したりチームが快適に開発できる状態をつくるのが好きです
-- 最近はRustでの組み込み開発にも関心が高く、将来は電子工作といった低レイアーから、3Dモデリングなどのデザインまで幅広くコンピュータについて一生楽しみ学び続けてたらと思います
+- 最近はRustでの組み込み開発にも関心が高く、将来は電子工作といった低レイアーから、3Dモデリングなどのデザインまで幅広くコンピューターについて一生楽しみ学び続けてたらと思います
 
 ## 技術
 
@@ -34,23 +34,23 @@ TypeScript | Rust
 
 #### Frontend
 
-Next.js | React | Redux | Redux Toolkit | Recoil | SWR | TanStack Query | TanStack Table | React Hook Form | Zod | React Icons | TailwindCSS
+Next.js | React | Redux | Redux Toolkit | Recoil | SWR | TanStack Query | React Hook Form | Zod | React Icons | TailwindCSS
 
 #### アニメーション
 
 GSAP | Three.js | p5.js | Framer Motion
 
-#### Backend
+#### Backend(Node)
 
-NestJS | Express | Socket.IO | OpenAPI | Prisma | TypeORM
+NestJS | Express | Socket.IO | Prisma | TypeORM
 
-#### Mobile
+#### Backend(Rust)
 
-React Native
+Tokio | SeaORM | Tonic
 
 #### Test
 
-Cypress | Jest | Testing Library | MSW | Supertest
+Playwright | Jest | Testing Library | MSW | Supertest | Cypress
 
 ### RDB/NoSQL
 
@@ -58,15 +58,15 @@ PostgreSQL | Redis
 
 ### GCP
 
-Cloud Run | Cloud Storage | Stackdriver Monitoring | Cloud Logging | Container Registry | Cloud Functions | Firebase
+Cloud Run | Cloud Storage | Stackdriver Monitoring | Cloud Logging | Container Registry | Cloud Functions | Firebase | BigQuery
 
 ### Monorepo
 
-Yarn Workspaces | TurboRepo | Nx
+Yarn Workspaces | Lerna | TurboRepo | Nx
 
 ### その他
 
-GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | SendGrid | Pusher | TinyMCE | Stripe | Agora | Figma
+GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | SendGrid | Pusher | TinyMCE | Stripe | Agora | Figma | Jira |　Newt | LaunchDarkly | AG Grid
 
 ## 強みが発揮されやすい業務
 
@@ -76,18 +76,29 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | Send
 - Git Hooksの導入
 - アニメーション実装
 - Monorepo開発
-- StorybookでのUIカタログ作成
+- StorybookでのUIカタログ、コンポーネントテスト作成
 - 単体テストや統合テストの導入
 - CIサービスの導入
 - デプロイの自動化
 - GCPでのアプリケーション導入、運用
-- 監視ダッシュボードの導入
 - 多言語化
 - アクセシビリティに配慮した設計
 - 通話サービスの導入
-- ソケット通信の実装
 
 ## 主な業務経歴
+
+### 製造業受発注プラットフォーム開発　(2022年 10月 〜 )
+
+#### 【担当業務】開発環境構築/フロントエンド開発/BFF開発/バックエンド開発/現行機能の保守運用
+
+- Next.jsを使用したSPA開発、保守運用
+- NestJSを使用したRest API、GraphQL、gRPC開発、保守運用
+- Rustを使用したgRPC開発、保守運用
+- Yarn Workspaceを使用したMono Repo開発
+- DDDでのバックエンド開発
+
+プロダクトリリース後2ヶ月目という時期にジョインしました。開発環境が十分とは言えない中、自らの知見を共有提案し、CIの設定やgithooks、zodによるスキーマバリデーション等少しでも開発者が気持ちよく開発できるように取り組みました。Storybookでの開発や環境整備、Unit Test、Component Testに力を入れリファクタリングや修正を加えやすい設計に努めました。
+実装だけではなく要件定義や仕様作成も担当し、実際にアプリを使用して頂いてるユーザーの声を聞きながら開発を進めていきました。
 
 ### NFTマーケットの新規開発　(2022年 3月 〜 2022年 7月)
 
