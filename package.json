@@ -45,7 +45,7 @@
     "textlint-rule-period-in-list-item": "0.3.3",
     "textlint-rule-preset-ja-spacing": "2.2.0",
     "textlint-rule-sentence-length": "3.0.1",
-    "textlint-rule-terminology": "3.0.3",
+    "textlint-rule-terminology": "3.0.4",
     "textlint-rule-use-si-units": "1.0.2"
   },
   "packageManager": "yarn@1.22.19",
