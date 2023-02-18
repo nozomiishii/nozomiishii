@@ -3685,10 +3685,20 @@ semver@7.3.7, semver@^7.3.4, semver@^7.3.5:
   dependencies:
     lru-cache "^6.0.0"
 
-sentence-splitter@^3.0.11, sentence-splitter@^3.2.1, sentence-splitter@^3.2.2:
+sentence-splitter@^3.0.11, sentence-splitter@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/sentence-splitter/-/sentence-splitter-3.2.2.tgz#b02a28c08bbad4bd3b6ec6f619d50e3fd3596d07"
   integrity sha512-hMvaodgK9Fay928uiQoTMEWjXpCERdKD2uKo7BbSyP+uWTo+wHiRjN+ZShyI99rW0VuoV4Cuw8FUmaRcnpN7Ug==
+  dependencies:
+    "@textlint/ast-node-types" "^4.4.2"
+    concat-stream "^2.0.0"
+    object_values "^0.1.2"
+    structured-source "^3.0.2"
+
+sentence-splitter@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/sentence-splitter/-/sentence-splitter-3.2.3.tgz#7f92e3fe5500fb71196b97505f9a6d869659e583"
+  integrity sha512-eDqaz4MasTn6Mp3dagKzIbiNsJpgpueMEQqCJeN9F9XQRFLDGFJ0kX8R3uMp+mU7J58dWjr4q6eks/nUX/vnJQ==
   dependencies:
     "@textlint/ast-node-types" "^4.4.2"
     concat-stream "^2.0.0"
@@ -4210,13 +4220,13 @@ textlint-rule-preset-ja-spacing@2.2.0:
     textlint-rule-ja-space-around-code "^2.2.0"
     textlint-rule-ja-space-between-half-and-full-width "^2.2.0"
 
-textlint-rule-sentence-length@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-sentence-length/-/textlint-rule-sentence-length-3.0.0.tgz#72587bc05a1e02f9d0f0099c01fc36aa8740556e"
-  integrity sha512-H2mktN9Y29Hooljiot9yowsMpt4FSiTQt+EtiDRHPDDdXMX8eNG0The5Z7rfR94G5B1N6x3ZssZAcST9EKVjMQ==
+textlint-rule-sentence-length@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-sentence-length/-/textlint-rule-sentence-length-3.0.1.tgz#77c296fd044bc62b591c979a8566a006f94c0f1e"
+  integrity sha512-Les3CmXziuUJW8MP6VrWvsCpm+MrVhU7RR2vOJHCteXprlF1ifwUMnjMI6++HD4Ac+2XWNo0KOdgfyRTff9FmA==
   dependencies:
     "@textlint/regexp-string-matcher" "^1.1.0"
-    sentence-splitter "^3.2.1"
+    sentence-splitter "^3.2.3"
     textlint-rule-helper "^2.1.1"
     textlint-util-to-string "^3.1.1"
 
