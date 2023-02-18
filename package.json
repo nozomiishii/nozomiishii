@@ -33,7 +33,7 @@
     "prettier-plugin-packagejson": "2.4.3",
     "prettier-plugin-sh": "0.12.8",
     "sudachi-synonyms-dictionary": "12.0.0",
-    "textlint": "12.6.1",
+    "textlint": "13.3.0",
     "textlint-rule-date-weekday-mismatch": "1.0.6",
     "textlint-rule-footnote-order": "1.0.3",
     "textlint-rule-ja-no-mixed-period": "3.0.1",
