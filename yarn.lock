@@ -4218,7 +4218,7 @@ textlint-rule-helper@^2.0.0, textlint-rule-helper@^2.1.1, textlint-rule-helper@^
     structured-source "^3.0.2"
     unist-util-visit "^2.0.3"
 
-textlint-rule-helper@^2.2.4:
+textlint-rule-helper@^2.2.4, textlint-rule-helper@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/textlint-rule-helper/-/textlint-rule-helper-2.3.0.tgz#5ab84db686d42fd2e39a63b40310501bb336520d"
   integrity sha512-Ug78Saahb/qVImttL0NSFyT5/JJ5wXvOPepR2pYAjNi54BsQAAz/hAyyEgKuYeR0+yjFb0KPhby4f880X5vqHA==
@@ -4328,13 +4328,13 @@ textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet@1.0.1:
     moji "^0.5.1"
     textlint-rule-helper "^2.0.0"
 
-textlint-rule-no-nfd@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/textlint-rule-no-nfd/-/textlint-rule-no-nfd-1.0.2.tgz#8c5793b57caada6e620b89d7a1d2886487dbbe2e"
-  integrity sha512-n6tUx40/V6koDo78qqePHxSovuwSIKO0xwY3FCqVDbcfg9GxQCjde1twQJ99T3bs4LabhPOo/Pt3USaQ9XcTRQ==
+textlint-rule-no-nfd@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-no-nfd/-/textlint-rule-no-nfd-2.0.1.tgz#f13c74796dcfe06b8bd6e8c0e2560d041b384ee7"
+  integrity sha512-d0SSK64qliPzan+xuRo7F2N4cfgDxBSwzZSwOMclwtPN+ag4Ir0M5SVfBEX1uOAgfPFnjssziDm6kp6WSwzJxg==
   dependencies:
     match-index "^1.0.3"
-    textlint-rule-helper "^2.1.1"
+    textlint-rule-helper "^2.3.0"
     unorm "^1.4.1"
 
 textlint-rule-period-in-list-item@1.0.1:
