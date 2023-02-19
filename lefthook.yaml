@@ -6,7 +6,9 @@ pre-commit:
 
   commands:
     format:
-      run: npx -y prettier --ignore-unknown --write {staged_files}
+      # Markdown formatting is the responsibility of the markdownlint
+      exclude: ".*\\.md$"
+      run: npx -y prettier {staged_files} --ignore-unknown --ignore-path .gitignore --write
 
     lint-markdown:
       glob: '*.md'
@@ -18,8 +20,8 @@ pre-commit:
 
     generate-pdf-cv:
       files: git diff --name-only --staged
-      glob: 'src/cv-ja.md'
-      run: npx -y md-to-pdf src/cv-ja.md && git add src/cv-ja.pdf
+      glob: 'src/cv/cv-ja.md'
+      run: npx -y md-to-pdf src/cv/cv-ja.md && git add src/cv/cv-ja.pdf
 
     generate-pdf-pay:
       files: git diff --name-only --staged
@@ -31,7 +33,7 @@ commit-msg:
 
   commands:
     commitlint:
-      run: npx commitlint --edit
+      run: npx -y commitlint --edit
 
   scripts:
     'spell-check.sh':
@@ -45,7 +47,6 @@ post-merge:
       files: git diff --name-only HEAD main
       glob: '{package.json,yarn.lock}'
       run: yarn install
-      tags: frontend
 
     delete-merged-branches:
       run: git branch --merged | grep -Ev '\*|master|main|dev|develop|development|stag|staging|prod|production' | xargs git branch -d; git fetch --prune;
