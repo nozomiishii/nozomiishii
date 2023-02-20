@@ -29,7 +29,7 @@
     "commitizen": "4.2.6",
     "md-to-pdf": "5.2.1",
     "sudachi-synonyms-dictionary": "11.0.0",
-    "textlint": "12.2.4",
+    "textlint": "12.6.1",
     "textlint-rule-date-weekday-mismatch": "1.0.6",
     "textlint-rule-footnote-order": "1.0.3",
     "textlint-rule-ja-no-mixed-period": "2.1.3",
@@ -39,7 +39,7 @@
     "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "1.0.1",
     "textlint-rule-no-nfd": "1.0.2",
     "textlint-rule-period-in-list-item": "0.3.3",
-    "textlint-rule-preset-ja-spacing": "2.2.0",
+    "textlint-rule-preset-ja-spacing": "2.3.0",
     "textlint-rule-sentence-length": "3.0.1",
     "textlint-rule-terminology": "3.0.4",
     "textlint-rule-use-si-units": "1.0.2"
