@@ -1,6 +1,6 @@
 # 🦕 Nozomi Ishii
 
-![BackGround Image](./images/background.png)
+![BackGround Image](./assets/images/background.png)
 
 ## 職務経歴書 | CV
 
