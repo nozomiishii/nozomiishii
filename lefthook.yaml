@@ -40,12 +40,12 @@ commit-msg:
       runner: bash
 
 post-merge:
-  piped: true
+  parallel: true
 
   commands:
-    npm:
-      files: git diff --name-only HEAD main
-      glob: '{package.json,yarn.lock}'
+    update-node-modules:
+      files: git diff --name-only HEAD^
+      glob: '**/{package.json,yarn.lock}'
       run: yarn install
 
     delete-merged-branches:
