@@ -41,7 +41,7 @@ Tokio | SeaORM | Tonic
 
 #### Test
 
-Playwright | Jest | Testing Library | MSW | Supertest | Cypress
+Playwright | Vitest | Testing Library | MSW | Supertest
 
 ### RDB/NoSQL
 
@@ -64,8 +64,9 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Heroku | Vercel | Send
 - React Component設計開発
 - LinterやFormatterの導入
 - PlaywrightでのE2Eテスト自動化
-- StorybookでのUIカタログ、コンポーネントテスト作成
-- Jestを使った単体テスト導入
+- StorybookでのUIカタログ、コンポーネントテスト作成自動化
+- Bashを使ったタスク自動化
+- Vitestを使った単体テスト導入
 - TailwindCSSの導入、開発
 - Git Hooksの導入
 - アニメーション実装
