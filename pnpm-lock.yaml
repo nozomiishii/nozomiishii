@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@commitlint/config-conventional':
-    specifier: 17.6.1
-    version: 17.6.1
+    specifier: 17.6.3
+    version: 17.6.3
   '@evilmartians/lefthook':
     specifier: 1.4.1
     version: 1.4.1
@@ -101,8 +101,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@commitlint/config-conventional@17.6.1:
-    resolution: {integrity: sha512-ng/ybaSLuTCH9F+7uavSOnEQ9EFMl7lHEjfAEgRh1hwmEe8SpLKpQeMo2aT1IWvHaGMuTb+gjfbzoRf2IR23NQ==}
+  /@commitlint/config-conventional@17.6.3:
+    resolution: {integrity: sha512-bLyHEjjRWqlLQWIgYFHmUPbEFMOOLXeF3QbUinDIJev/u9e769tkoTH9YPknEywiuIrAgZaVo+OfzAIsJP0fsw==}
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
