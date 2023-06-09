@@ -42,8 +42,8 @@ devDependencies:
     specifier: 2.0.4
     version: 2.0.4
   textlint-rule-no-hankaku-kana:
-    specifier: 2.0.0
-    version: 2.0.0
+    specifier: 2.0.1
+    version: 2.0.1
   textlint-rule-no-mix-dearu-desumasu:
     specifier: 5.0.0
     version: 5.0.0
@@ -51,8 +51,8 @@ devDependencies:
     specifier: 1.0.1
     version: 1.0.1
   textlint-rule-no-nfd:
-    specifier: 2.0.1
-    version: 2.0.1
+    specifier: 2.0.2
+    version: 2.0.2
   textlint-rule-period-in-list-item:
     specifier: 0.3.3
     version: 0.3.3
@@ -3743,8 +3743,8 @@ packages:
       textlint-util-to-string: 3.3.2
     dev: true
 
-  /textlint-rule-no-hankaku-kana@2.0.0:
-    resolution: {integrity: sha512-zqrP2iSEjCMU8mqSvK+ybIisLel/hwUltE36g0hqDiET4uQmtgLj9OVtX77pLOkMOJAiAfme2Ub8irQifYq2Sg==}
+  /textlint-rule-no-hankaku-kana@2.0.1:
+    resolution: {integrity: sha512-39s94HK6V1xnII1haYiYQnWy1YQAKK7Zj0mcpUMFHHC4M5JdsRnhGs6DQPVEff0gQIFV0iuDNlofXt15kjMtEA==}
     dependencies:
       textlint-rule-helper: 2.3.0
       textlint-tester: 13.3.2
@@ -3768,12 +3768,11 @@ packages:
       textlint-rule-helper: 2.3.0
     dev: true
 
-  /textlint-rule-no-nfd@2.0.1:
-    resolution: {integrity: sha512-d0SSK64qliPzan+xuRo7F2N4cfgDxBSwzZSwOMclwtPN+ag4Ir0M5SVfBEX1uOAgfPFnjssziDm6kp6WSwzJxg==}
+  /textlint-rule-no-nfd@2.0.2:
+    resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.0
-      unorm: 1.6.0
     dev: true
 
   /textlint-rule-period-in-list-item@0.3.3:
@@ -4076,11 +4075,6 @@ packages:
   /universalify@0.1.2:
     resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
     engines: {node: '>= 4.0.0'}
-    dev: true
-
-  /unorm@1.6.0:
-    resolution: {integrity: sha512-b2/KCUlYZUeA7JFUuRJZPUtr4gZvBh7tavtv4fvk4+KV9pfGiR6CQAQAWl49ZpR3ts2dk4FYkP7EIgDJoiOLDA==}
-    engines: {node: '>= 0.4.0'}
     dev: true
 
   /untildify@4.0.0:
