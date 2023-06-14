@@ -54,8 +54,8 @@ devDependencies:
     specifier: 2.0.2
     version: 2.0.2
   textlint-rule-period-in-list-item:
-    specifier: 0.3.3
-    version: 0.3.3
+    specifier: 1.0.1
+    version: 1.0.1
   textlint-rule-preset-ja-spacing:
     specifier: 2.3.0
     version: 2.3.0
@@ -775,12 +775,6 @@ packages:
 
   /charenc@0.0.2:
     resolution: {integrity: sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA==}
-    dev: true
-
-  /check-ends-with-period@2.0.1:
-    resolution: {integrity: sha512-ZXEB+OLEAnRu9JCt/aMHNU9Q/BNYDCJrhcQli+JN95K08rGGEMVZc+W75/op8JyKrCKk/WV8Whuo8qjLIDcPeA==}
-    dependencies:
-      emoji-regex: 10.2.1
     dev: true
 
   /check-ends-with-period@3.0.2:
@@ -3387,10 +3381,10 @@ packages:
       textlint-rule-helper: 2.3.0
     dev: true
 
-  /textlint-rule-period-in-list-item@0.3.3:
-    resolution: {integrity: sha512-XVm7E2riBggmyMPiLPQZwXxwFngi5WozWrZqctjN43uz9GykOyrqaHACGsLou2cJqa6nwQxqxewl2OOf/G64eA==}
+  /textlint-rule-period-in-list-item@1.0.1:
+    resolution: {integrity: sha512-dNPa4WzePcgsz8A+CxFGQgKNZCEvjjwMCu3DFcpYB4eKuhcSISEiS/mvEO42oGAALJluYdYVZxN3yMD6XzkLBA==}
     dependencies:
-      check-ends-with-period: 2.0.1
+      check-ends-with-period: 3.0.2
     dev: true
 
   /textlint-rule-preset-ja-spacing@2.3.0:
