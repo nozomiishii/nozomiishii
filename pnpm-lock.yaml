@@ -63,8 +63,8 @@ devDependencies:
     specifier: 4.0.2
     version: 4.0.2
   textlint-rule-terminology:
-    specifier: 3.0.4
-    version: 3.0.4
+    specifier: 3.0.5
+    version: 3.0.5
   textlint-rule-use-si-units:
     specifier: 1.0.2
     version: 1.0.2
@@ -3409,8 +3409,8 @@ packages:
       textlint-util-to-string: 3.3.2
     dev: true
 
-  /textlint-rule-terminology@3.0.4:
-    resolution: {integrity: sha512-obQ3y0hqX6OWCrM8K5K6WSJGE4BOyNfGF6hUGPet56taTm/xzkRu8XA6vpn2GFr4zom/oMa0sBJ3OtDWCgrS/g==}
+  /textlint-rule-terminology@3.0.5:
+    resolution: {integrity: sha512-IZw8byc4GjyccNjGwSMfy5OSxvjwTGk3IK3qMw2rJ0fsgCYQVlx5JThEQrs4CbWNQN6k2hAinIlxTzxgR00Hmw==}
     engines: {node: '>=14'}
     dependencies:
       lodash: 4.17.21
