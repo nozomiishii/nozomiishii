@@ -27,8 +27,8 @@ devDependencies:
     specifier: 12.0.0
     version: 12.0.0
   textlint:
-    specifier: 13.3.2
-    version: 13.3.2
+    specifier: 13.3.3
+    version: 13.3.3
   textlint-rule-date-weekday-mismatch:
     specifier: 1.0.6
     version: 1.0.6
@@ -3461,8 +3461,8 @@ packages:
       unified: 8.4.2
     dev: true
 
-  /textlint@13.3.2:
-    resolution: {integrity: sha512-i14ug8jyC1iNko16dpzp/blSLbvXTONiZbvkNT30N3VzDPCtNn2yV4qSZhiRWFi1hHfgOdG3n/u0DZvllZCHXQ==}
+  /textlint@13.3.3:
+    resolution: {integrity: sha512-1LhJTNBFVNYtl4C6IJXt1XwAJANvquyDuP4NrhcG+1DwT3S7kiUR9vLo5yo046X83VT7ownzS97Q/yC6A7bZXg==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
