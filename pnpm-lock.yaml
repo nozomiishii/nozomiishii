@@ -8,6 +8,9 @@ devDependencies:
   '@commitlint/config-conventional':
     specifier: 17.6.6
     version: 17.6.6
+  '@evilmartians/lefthook':
+    specifier: 1.4.5
+    version: 1.4.5
   '@nozomiishii/markdownlint-cli2-config':
     specifier: 0.1.1
     version: 0.1.1
@@ -20,9 +23,6 @@ devDependencies:
   '@textlint-rule/textlint-rule-no-unmatched-pair':
     specifier: 1.0.9
     version: 1.0.9
-  lefthook:
-    specifier: 1.4.4
-    version: 1.4.4
   md-to-pdf:
     specifier: 5.2.4
     version: 5.2.4
@@ -115,6 +115,14 @@ packages:
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
+    dev: true
+
+  /@evilmartians/lefthook@1.4.5:
+    resolution: {integrity: sha512-lZT4HTz86yRBgoKSh34vCiaiit6F2t858UAUFDRU7dLadllKOagDYKQ/qlDojLzA8QC0LxI/OYYk2fke71dAmQ==}
+    cpu: [x64, arm64, ia32]
+    os: [darwin, linux, win32]
+    hasBin: true
+    requiresBuild: true
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
@@ -1846,85 +1854,6 @@ packages:
     dependencies:
       kuromoji: 0.1.2
       lru_map: 0.4.1
-    dev: true
-
-  /lefthook-darwin-arm64@1.4.4:
-    resolution: {integrity: sha512-bVLyKmtp/vqHzBXMgVPDnM8nZHc+3i4BIZh0EYjHCO3pIFN3GOhhZ33umuzxVIQpU7kmXZOo/t9F6S/ddntzGQ==}
-    cpu: [arm64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /lefthook-darwin-x64@1.4.4:
-    resolution: {integrity: sha512-IF0rOxWOs0ES08iwOi10T0P5TiayikRcoRre4WcLlMRMN5A11nh07eg9PyztrLVrl65AjE1aGHiVH5xe39hc2Q==}
-    cpu: [x64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /lefthook-freebsd-arm64@1.4.4:
-    resolution: {integrity: sha512-QjrARNkh8Q4G19OCmyst/e2BfbTNPfDNlmnWZqtw6LXPfcOi1n5roTdmnzZowMchnf+KkGzwU3rdwzbfHfQAdQ==}
-    cpu: [arm64]
-    os: [freebsd]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /lefthook-freebsd-x64@1.4.4:
-    resolution: {integrity: sha512-aZ6usgtK+xB6n9LsGomAT4vI30E91BxIkioEwrKOFVE/tHTCCgajaGeSxS2f+xaeTh2Yy5OYcwp17m34yp+YdA==}
-    cpu: [x64]
-    os: [freebsd]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /lefthook-linux-arm64@1.4.4:
-    resolution: {integrity: sha512-A32/MpzNOu5e6pQn+v5C5Nc5NOMm2HkTHjv3LAAG1C0+Y23JC82LRQCBUi99DoUI0vwhHk3DHCm9ANvRQT5CYA==}
-    cpu: [arm64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /lefthook-linux-x64@1.4.4:
-    resolution: {integrity: sha512-97CwcHY0wmCkN9yKTzEx5NxbEXr5bnhHEgpJbL67R2dL75oV3AZhRdB/NsjrewreJjGbQl2YhmxUFMbGI/Qysw==}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /lefthook-windows-arm64@1.4.4:
-    resolution: {integrity: sha512-LGEfpe+Q3VeOIkE6S+8GyM1EARi0mbeIZpKsoCfl2t6Teh10hNSWqkpHaLphP52HnXOizFnNQjjY2pmiYatf8w==}
-    cpu: [arm64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /lefthook-windows-x64@1.4.4:
-    resolution: {integrity: sha512-9BAHo97ES9+NULpdWcvgICczGY7wA/N2BoyQoZfHsF/0Ib6hLbvn4tv3+NdtJILlrnAvwgIrKCxOtcc3urS5DQ==}
-    cpu: [x64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /lefthook@1.4.4:
-    resolution: {integrity: sha512-g5bDSeyeLCuV//vGpZQsRNWuLAzJRrDbtWEvvUAZQcN+Mf1hWPXAPZvI5hdOj/ONC5OiqQbrWg1mPqP1i+IKYQ==}
-    hasBin: true
-    requiresBuild: true
-    optionalDependencies:
-      lefthook-darwin-arm64: 1.4.4
-      lefthook-darwin-x64: 1.4.4
-      lefthook-freebsd-arm64: 1.4.4
-      lefthook-freebsd-x64: 1.4.4
-      lefthook-linux-arm64: 1.4.4
-      lefthook-linux-x64: 1.4.4
-      lefthook-windows-arm64: 1.4.4
-      lefthook-windows-x64: 1.4.4
     dev: true
 
   /levn@0.3.0:
