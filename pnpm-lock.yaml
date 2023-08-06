@@ -12,11 +12,11 @@ devDependencies:
     specifier: 1.4.8
     version: 1.4.8
   '@nozomiishii/markdownlint-cli2-config':
-    specifier: 0.2.0
-    version: 0.2.0
+    specifier: 0.3.0
+    version: 0.3.0
   '@nozomiishii/prettier-config':
-    specifier: 0.4.0
-    version: 0.4.0
+    specifier: 0.5.0
+    version: 0.5.0
   '@textlint-ja/textlint-rule-no-synonyms':
     specifier: 1.3.0
     version: 1.3.0(sudachi-synonyms-dictionary@12.0.0)
@@ -146,19 +146,19 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@nozomiishii/markdownlint-cli2-config@0.2.0:
-    resolution: {integrity: sha512-75fE0W3aG2YG0lEHBYIjVojuhpdu03U+M6OTTQON76aXqyh9rewW02nYGWCsSOdobnNf/exW+EyfrV0/DuZpkQ==}
+  /@nozomiishii/markdownlint-cli2-config@0.3.0:
+    resolution: {integrity: sha512-EGfGI8jKPtWPwQ14bBPZSlCGvSz30PpEhdNpH89JKfrquDP36PHqQOcEDpwz9uvYcWjF8fyBRy48PtS4YR+27w==}
     hasBin: true
     dependencies:
       markdownlint-cli2: 0.8.1
     dev: true
 
-  /@nozomiishii/prettier-config@0.4.0:
-    resolution: {integrity: sha512-nggKUXuH0QhWHoXhVrw9NVYZsVU6G5T+Pk8bdEB6mnjfzrbEtNl7U6JuQf3lYJ4sRjmslX6ZsG3WvRHd06eq1g==}
+  /@nozomiishii/prettier-config@0.5.0:
+    resolution: {integrity: sha512-HWLjnf5jAlxUOMN+kDWXMKRHbR8JX1DPn1RqPU+yB0gvgC/z2yxRB147cixuv48alO3JSOgP0XVc+tu6j0aLyw==}
     hasBin: true
     dependencies:
-      prettier: 3.0.0
-      prettier-plugin-packagejson: 2.4.5(prettier@3.0.0)
+      prettier: 3.0.1
+      prettier-plugin-packagejson: 2.4.5(prettier@3.0.1)
     dev: true
 
   /@pkgr/utils@2.4.2:
@@ -2667,7 +2667,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-packagejson@2.4.5(prettier@3.0.0):
+  /prettier-plugin-packagejson@2.4.5(prettier@3.0.1):
     resolution: {integrity: sha512-glG71jE1gO3y5+JNAhC8X+4yrlN28rub6Aj461SKbaPie9RgMiHKcInH2Moi2VGOfkTXaEHBhg4uVMBqa+kBUA==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -2675,13 +2675,13 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 3.0.0
+      prettier: 3.0.1
       sort-package-json: 2.5.1
       synckit: 0.8.5
     dev: true
 
-  /prettier@3.0.0:
-    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+  /prettier@3.0.1:
+    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
