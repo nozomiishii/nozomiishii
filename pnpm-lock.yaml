@@ -495,8 +495,8 @@ packages:
       '@types/unist': 2.0.8
     dev: true
 
-  /@types/node@20.6.2:
-    resolution: {integrity: sha512-Y+/1vGBHV/cYk6OI1Na/LHzwnlNCAfU3ZNGrc1LdRe/LAIbdDPTTv/HU3M7yXN448aTVDq3eKRm2cg7iKLb8gw==}
+  /@types/node@20.6.4:
+    resolution: {integrity: sha512-nU6d9MPY0NBUMiE/nXd2IIoC4OLvsLpwAjheoAeuzgvDZA1Cb10QYg+91AF6zQiKWRN5i1m07x6sMe0niBznoQ==}
     requiresBuild: true
     dev: true
     optional: true
@@ -509,7 +509,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.6.2
+      '@types/node': 20.6.4
     dev: true
     optional: true
 
@@ -803,19 +803,20 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /chromium-bidi@0.4.26(devtools-protocol@0.0.1159816):
-    resolution: {integrity: sha512-lukBGfogAI4T0y3acc86RaacqgKQve47/8pV2c+Hr1PjcICj2K4OkL3qfX3qrqxxnd4ddurFC0WBA3VCQqYeUQ==}
+  /chromium-bidi@0.4.28(devtools-protocol@0.0.1179426):
+    resolution: {integrity: sha512-2HZ74QlAApJrEwcGlU/sUu0s4VS+FI3CJ09Toc9aE9VemMyhHZXeaROQgJKNRaYMUTUx6qIv1cLBs3F+vfgjSw==}
     peerDependencies:
       devtools-protocol: '*'
     dependencies:
-      devtools-protocol: 0.0.1159816
+      devtools-protocol: 0.0.1179426
       mitt: 3.0.1
+      urlpattern-polyfill: 9.0.0
     dev: true
 
   /chrono-node@1.4.8:
     resolution: {integrity: sha512-WwfW4/+i1e6tHx5opw/VCfxXnai12/tT5GK+wSHwKtdb0ZkAoxRGIfL8IzuFr/JEQTw4DxevysyX6+YbZSRKLQ==}
     dependencies:
-      dayjs: 1.11.9
+      dayjs: 1.11.10
     dev: true
 
   /cli-cursor@2.1.0:
@@ -905,8 +906,8 @@ packages:
       compare-func: 2.0.0
     dev: true
 
-  /cosmiconfig@8.3.5:
-    resolution: {integrity: sha512-A5Xry3xfS96wy2qbiLkQLAg4JUrR2wvfybxj6yqLmrUfMAvhS3MZxIP2oQn0grgYIvJqzpeTEWu4vK0t+12NNw==}
+  /cosmiconfig@8.3.6:
+    resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
     engines: {node: '>=14'}
     peerDependencies:
       typescript: '>=4.9.5'
@@ -950,8 +951,8 @@ packages:
     resolution: {integrity: sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==}
     dev: true
 
-  /dayjs@1.11.9:
-    resolution: {integrity: sha512-QvzAURSbQ0pKdIye2txOzNaHmxtUBXerpY0FJsFXUMKbIZeFm5ht1LS/jFsrncjnmtv8HsG0W2g6c0zUjZWmpA==}
+  /dayjs@1.11.10:
+    resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
     dev: true
 
   /debug@4.3.4:
@@ -1036,13 +1037,13 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /detect-newline@4.0.0:
-    resolution: {integrity: sha512-1aXUEPdfGdzVPFpzGJJNgq9o81bGg1s09uxTWsqBlo9PI332uyJRQq13+LK/UN4JfxJbFdCXonUFQ9R/p7yCtw==}
+  /detect-newline@4.0.1:
+    resolution: {integrity: sha512-qE3Veg1YXzGHQhlA6jzebZN2qVf6NX+A7m7qlhCGG30dJixrAQhYOsJjsnBjJkCSmuOPpCk30145fr8FV0bzog==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
-  /devtools-protocol@0.0.1159816:
-    resolution: {integrity: sha512-2cZlHxC5IlgkIWe2pSDmCrDiTzbSJWywjbDDnupOImEBcG31CQgBLV8wWE+5t+C4rimcjHsbzy7CBzf9oFjboA==}
+  /devtools-protocol@0.0.1179426:
+    resolution: {integrity: sha512-KKC7IGwdOr7u9kTGgjUvGTov/z1s2H7oHi3zKCdR9eSDyCPia5CBi4aRhtp7d8uR7l0GS5UTDw3TjKGu5CqINg==}
     dev: true
 
   /diff@4.0.2:
@@ -2090,7 +2091,7 @@ packages:
       iconv-lite: 0.6.3
       listr: 0.14.3
       marked: 4.3.0
-      puppeteer: 21.2.1
+      puppeteer: 21.3.4
       semver: 7.5.4
       serve-handler: 6.1.5
     transitivePeerDependencies:
@@ -2754,16 +2755,16 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@21.2.1:
-    resolution: {integrity: sha512-+I8EjpWFeeFKScpQiTEnC4jGve2Wr4eA9qUMoa8S317DJPm9h7wzrT4YednZK2TQZMyPtPQ2Disb/Tg02+4Naw==}
+  /puppeteer-core@21.3.4:
+    resolution: {integrity: sha512-iaG7ScTXOm9hlsBTBGGtr5dAAsA8IiWTx8E0Ghr0b5Ntl42bdcPS8EXjcERKocDhua2YqdlnFGs/cBxHY+VNyA==}
     engines: {node: '>=16.3.0'}
     dependencies:
       '@puppeteer/browsers': 1.7.1
-      chromium-bidi: 0.4.26(devtools-protocol@0.0.1159816)
+      chromium-bidi: 0.4.28(devtools-protocol@0.0.1179426)
       cross-fetch: 4.0.0
       debug: 4.3.4
-      devtools-protocol: 0.0.1159816
-      ws: 8.14.1
+      devtools-protocol: 0.0.1179426
+      ws: 8.14.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -2771,14 +2772,14 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer@21.2.1:
-    resolution: {integrity: sha512-bgY/lYBH3rR+m5EP1FxzY2MRMrau7Pyq+N5YlspA63sF+cBkUiTn5WZXwXm7mEHwkkOSVi5LiS74T5QIgrSklg==}
+  /puppeteer@21.3.4:
+    resolution: {integrity: sha512-kE67k1KR6hQs3g0Yf/i3GYOhTU8zC2dtcpHhtcSC9bGoVxRgqDo/hwVkDqlNKxJsJHuVX+qviWC7F0FdSjcFTA==}
     engines: {node: '>=16.3.0'}
     requiresBuild: true
     dependencies:
       '@puppeteer/browsers': 1.7.1
-      cosmiconfig: 8.3.5
-      puppeteer-core: 21.2.1
+      cosmiconfig: 8.3.6
+      puppeteer-core: 21.3.4
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -3112,7 +3113,7 @@ packages:
     hasBin: true
     dependencies:
       detect-indent: 7.0.1
-      detect-newline: 4.0.0
+      detect-newline: 4.0.1
       get-stdin: 9.0.0
       git-hooks-list: 3.1.0
       globby: 13.2.2
@@ -3135,7 +3136,7 @@ packages:
     resolution: {integrity: sha512-kN9dJbvnySHULIluDHy32WHRUu3Og7B9sbY7tsFLctQkIqnMh3hErYgdMjTYuqmcXX+lK5T1lnUt3G7zNswmZA==}
     dependencies:
       spdx-expression-parse: 3.0.1
-      spdx-license-ids: 3.0.13
+      spdx-license-ids: 3.0.15
     dev: true
 
   /spdx-exceptions@2.3.0:
@@ -3146,11 +3147,11 @@ packages:
     resolution: {integrity: sha512-cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==}
     dependencies:
       spdx-exceptions: 2.3.0
-      spdx-license-ids: 3.0.13
+      spdx-license-ids: 3.0.15
     dev: true
 
-  /spdx-license-ids@3.0.13:
-    resolution: {integrity: sha512-XkD+zwiqXHikFZm4AX/7JSCXA98U5Db4AFd5XUg/+9UNtnH75+Z9KxtpYiJZx36mUDVOwH83pl7yvCer6ewM3w==}
+  /spdx-license-ids@3.0.15:
+    resolution: {integrity: sha512-lpT8hSQp9jAKp9mhtBU4Xjon8LPGBvLIuBiSVhMEtmLecTh2mO0tlqrAMp47tBXzMr13NJMQ2lf7RpQGLJ3HsQ==}
     dev: true
 
   /sprintf-js@1.0.3:
@@ -3746,6 +3747,10 @@ packages:
       punycode: 2.3.0
     dev: true
 
+  /urlpattern-polyfill@9.0.0:
+    resolution: {integrity: sha512-WHN8KDQblxd32odxeIgo83rdVDE2bvdkb86it7bMhYZwWKJz0+O0RK/eZiHYnM+zgt/U7hAHOlCQGfjjvSkw2g==}
+    dev: true
+
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
@@ -3824,8 +3829,8 @@ packages:
       mkdirp: 0.5.6
     dev: true
 
-  /ws@8.14.1:
-    resolution: {integrity: sha512-4OOseMUq8AzRBI/7SLMUwO+FEDnguetSk7KMb1sHwvF2w2Wv5Hoj0nlifx8vtGsftE/jWHojPy8sMMzYLJ2G/A==}
+  /ws@8.14.2:
+    resolution: {integrity: sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
