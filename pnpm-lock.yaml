@@ -9,8 +9,8 @@ devDependencies:
     specifier: 18.4.3
     version: 18.4.3
   '@evilmartians/lefthook':
-    specifier: 1.5.2
-    version: 1.5.2
+    specifier: 1.5.3
+    version: 1.5.3
   '@nozomiishii/markdownlint-cli2-config':
     specifier: 0.3.0
     version: 0.3.0
@@ -118,8 +118,8 @@ packages:
       conventional-changelog-conventionalcommits: 7.0.2
     dev: true
 
-  /@evilmartians/lefthook@1.5.2:
-    resolution: {integrity: sha512-CI2TYP0KFGxd3iXDj/4JcFxN+aMWxC5raRRQjJzXATPok5IVC41+SAG1O05Ec1AQJGN4b6iU1bxqtopbsKgWpg==}
+  /@evilmartians/lefthook@1.5.3:
+    resolution: {integrity: sha512-vJnbJTNpPHrqQ2+9tHKNAE6eIIBvVboZgT7JIUwWCIhbQlzAJ06qamF/14Pl5zpEZ1FOwKKqgS7pKcETGFAuZA==}
     cpu: [x64, arm64, ia32]
     os: [darwin, linux, win32]
     hasBin: true
