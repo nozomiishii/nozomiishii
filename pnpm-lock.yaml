@@ -63,8 +63,8 @@ devDependencies:
     specifier: 2.3.0
     version: 2.3.0
   textlint-rule-sentence-length:
-    specifier: 4.0.2
-    version: 4.0.2
+    specifier: 5.0.0
+    version: 5.0.0
   textlint-rule-terminology:
     specifier: 4.0.1
     version: 4.0.1
@@ -2970,13 +2970,6 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /sentence-splitter@4.4.1:
-    resolution: {integrity: sha512-4Jks7qn5nOeY5g++wlWbLCKclo2XxT7DBrLYo68UNdP8UEWUpUNH5VgKTEd0QlTo2cYBggtVk0NkvsRhoCZdsA==}
-    dependencies:
-      '@textlint/ast-node-types': 13.4.1
-      structured-source: 4.0.0
-    dev: true
-
   /sentence-splitter@5.0.0:
     resolution: {integrity: sha512-9Mvf7L8vwpPzkH0/HtXzCbmVkyj4aQXdeG7h8ighRvO0hvcZEy2OUEjeIlnM/z4EX4vBacEfpESC65Oa2rWOig==}
     dependencies:
@@ -3435,11 +3428,11 @@ packages:
       textlint-rule-ja-space-between-half-and-full-width: 2.3.0
     dev: true
 
-  /textlint-rule-sentence-length@4.0.2:
-    resolution: {integrity: sha512-q6RA4Udd0c5K8sl61ftZuHSIJ9AkKBF1OaRgJkWnrFhAbBQV0za4kJMbwqMYDQ8fyGy+Q4G9uzjamqE5QhrGVg==}
+  /textlint-rule-sentence-length@5.0.0:
+    resolution: {integrity: sha512-NRbzbMYSKZVZWTarJo/uVpHMGe91uZyR4td6fipWmDAwJjjX2HYa6aYEfLM/X99ymo9aLUnOD6wWaUttgViRbw==}
     dependencies:
       '@textlint/regexp-string-matcher': 2.0.2
-      sentence-splitter: 4.4.1
+      sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
     dev: true
