@@ -48,8 +48,8 @@ devDependencies:
     specifier: 2.0.1
     version: 2.0.1
   textlint-rule-no-mix-dearu-desumasu:
-    specifier: 5.0.0
-    version: 5.0.0
+    specifier: 6.0.2
+    version: 6.0.2
   textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet:
     specifier: 1.0.1
     version: 1.0.1
@@ -3388,12 +3388,11 @@ packages:
       - supports-color
     dev: true
 
-  /textlint-rule-no-mix-dearu-desumasu@5.0.0:
-    resolution: {integrity: sha512-fBNWXBUeP9xuxZYjNqm3PQDsHStYPxpkJaLwTvbNQEZ6rpC1dHsHwLujYtuAQVuvrfxxU6J4jtepP61rhjPA8g==}
+  /textlint-rule-no-mix-dearu-desumasu@6.0.2:
+    resolution: {integrity: sha512-h/Vs6qltBlkm7bmKT2rtJ6jZriNV3uTr5fxKuPMBUHVUMnAuQvz3lI7oFrGC10Pxny+Ofng5fbLiYntHq/ymaA==}
     dependencies:
       analyze-desumasu-dearu: 5.0.1
       textlint-rule-helper: 2.3.1
-      unist-util-visit: 3.1.0
     dev: true
 
   /textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet@1.0.1:
@@ -3621,12 +3620,6 @@ packages:
     resolution: {integrity: sha512-ZOQSsnce92GrxSqlnEEseX0gi7GH9zTJZ0p9dtu87WRb/37mMPO2Ilx1s/t9vBHrFhbgweUwb+t7cIn5dxPhZg==}
     dev: true
 
-  /unist-util-is@5.2.1:
-    resolution: {integrity: sha512-u9njyyfEh43npf1M+yGKDGVPbY/JWEemg5nH05ncKPfi+kBbKBJoTdsogMu33uhytuLlv9y0O7GH7fEdwLdLQw==}
-    dependencies:
-      '@types/unist': 2.0.10
-    dev: true
-
   /unist-util-stringify-position@2.0.3:
     resolution: {integrity: sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==}
     dependencies:
@@ -3640,27 +3633,12 @@ packages:
       unist-util-is: 4.1.0
     dev: true
 
-  /unist-util-visit-parents@4.1.1:
-    resolution: {integrity: sha512-1xAFJXAKpnnJl8G7K5KgU7FY55y3GcLIXqkzUj5QF/QVP7biUm0K0O2oqVkYsdjzJKifYeWn9+o6piAK2hGSHw==}
-    dependencies:
-      '@types/unist': 2.0.10
-      unist-util-is: 5.2.1
-    dev: true
-
   /unist-util-visit@2.0.3:
     resolution: {integrity: sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==}
     dependencies:
       '@types/unist': 2.0.10
       unist-util-is: 4.1.0
       unist-util-visit-parents: 3.1.1
-    dev: true
-
-  /unist-util-visit@3.1.0:
-    resolution: {integrity: sha512-Szoh+R/Ll68QWAyQyZZpQzZQm2UPbxibDvaY8Xc9SUtYgPsDzx5AWSk++UUt2hJuow8mvwR+rG+LQLw+KsuAKA==}
-    dependencies:
-      '@types/unist': 2.0.10
-      unist-util-is: 5.2.1
-      unist-util-visit-parents: 4.1.1
     dev: true
 
   /universalify@0.1.2:
