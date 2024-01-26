@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@commitlint/config-conventional':
-    specifier: 18.4.3
-    version: 18.4.3
+    specifier: 18.5.0
+    version: 18.5.0
   '@evilmartians/lefthook':
-    specifier: 1.5.5
-    version: 1.5.5
+    specifier: 1.6.0
+    version: 1.6.0
   '@nozomiishii/markdownlint-cli2-config':
     specifier: 0.3.0
     version: 0.3.0
@@ -48,8 +48,8 @@ devDependencies:
     specifier: 2.0.1
     version: 2.0.1
   textlint-rule-no-mix-dearu-desumasu:
-    specifier: 5.0.0
-    version: 5.0.0
+    specifier: 6.0.2
+    version: 6.0.2
   textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet:
     specifier: 1.0.1
     version: 1.0.1
@@ -111,15 +111,15 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@commitlint/config-conventional@18.4.3:
-    resolution: {integrity: sha512-729eRRaNta7JZF07qf6SAGSghoDEp9mH7yHU0m7ff0q89W97wDrWCyZ3yoV3mcQJwbhlmVmZPTkPcm7qiAu8WA==}
+  /@commitlint/config-conventional@18.5.0:
+    resolution: {integrity: sha512-XGmU4u3Z7bCn0H0nTEG9LUn6hMDUIPP4P6dun7PKFhtnt/wwiKAqmPj+QRmFiqWjkOWcmrh7w7xRiDL32cWS5g==}
     engines: {node: '>=v18'}
     dependencies:
       conventional-changelog-conventionalcommits: 7.0.2
     dev: true
 
-  /@evilmartians/lefthook@1.5.5:
-    resolution: {integrity: sha512-vSJQ3rt52kHMqv4DpTf48jzZap5Q+X5C/qeYMBW58KkB+0a7jmMVy611CUfr/cUXeliZOqbSaOi2/kRYsLiSfQ==}
+  /@evilmartians/lefthook@1.6.0:
+    resolution: {integrity: sha512-vmpQuxYnimUkDEn4UzJsAJ32tNJ5OwQuWG9tX+/5F6OuBFDi62guqOLiflpLBiH7WFVBTOefCQ/DJgubjE8WrA==}
     cpu: [x64, arm64, ia32]
     os: [darwin, linux, win32]
     hasBin: true
@@ -174,8 +174,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@puppeteer/browsers@1.9.0:
-    resolution: {integrity: sha512-QwguOLy44YBGC8vuPP2nmpX4MUN2FzWbsnvZJtiCzecU3lHmVZkaC1tq6rToi9a200m8RzlVtDyxCS0UIDrxUg==}
+  /@puppeteer/browsers@1.9.1:
+    resolution: {integrity: sha512-PuvK6xZzGhKPvlx3fpfdM2kYY3P/hB1URtK8wA7XUJ6prn6pp22zvJHu48th0SGcHL9SutbPHrFuQgfXTFobWA==}
     engines: {node: '>=16.3.0'}
     hasBin: true
     dependencies:
@@ -490,8 +490,8 @@ packages:
       '@types/unist': 2.0.10
     dev: true
 
-  /@types/node@20.10.6:
-    resolution: {integrity: sha512-Vac8H+NlRNNlAmDfGUP7b5h/KA+AtWIzuXy0E6OyP8f1tCLYAtPvKRRDJjAPqhpCb0t6U2j7/xqAuLEebW2kiw==}
+  /@types/node@20.11.5:
+    resolution: {integrity: sha512-g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==}
     requiresBuild: true
     dependencies:
       undici-types: 5.26.5
@@ -506,7 +506,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.10.6
+      '@types/node': 20.11.5
     dev: true
     optional: true
 
@@ -716,7 +716,7 @@ packages:
     dependencies:
       function-bind: 1.1.2
       get-intrinsic: 1.2.2
-      set-function-length: 1.1.1
+      set-function-length: 1.2.0
     dev: true
 
   /callsites@3.1.0:
@@ -793,8 +793,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /chromium-bidi@0.5.1(devtools-protocol@0.0.1203626):
-    resolution: {integrity: sha512-dcCqOgq9fHKExc2R4JZs/oKbOghWpUNFAJODS8WKRtLhp3avtIH5UDCBrutdqZdh3pARogH8y1ObXm87emwb3g==}
+  /chromium-bidi@0.5.2(devtools-protocol@0.0.1203626):
+    resolution: {integrity: sha512-PbVOSddxgKyj+JByqavWMNqWPCoCaT6XK5Z1EFe168sxnB/BM51LnZEPXSbFcFAJv/+u2B4XNTs9uXxy4GW3cQ==}
     peerDependencies:
       devtools-protocol: '*'
     dependencies:
@@ -2072,7 +2072,7 @@ packages:
       iconv-lite: 0.6.3
       listr: 0.14.3
       marked: 4.3.0
-      puppeteer: 21.6.1
+      puppeteer: 21.7.0
       semver: 7.5.4
       serve-handler: 6.1.5
     transitivePeerDependencies:
@@ -2732,16 +2732,16 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@21.6.1:
-    resolution: {integrity: sha512-0chaaK/RL9S1U3bsyR4fUeUfoj51vNnjWvXgG6DcsyMjwYNpLcAThv187i1rZCo7QhJP0wZN8plQkjNyrq2h+A==}
+  /puppeteer-core@21.7.0:
+    resolution: {integrity: sha512-elPYPozrgiM3phSy7VDUJCVWQ07SPnOm78fpSaaSNFoQx5sur/MqhTSro9Wz8lOEjqCykGC6WRkwxDgmqcy1dQ==}
     engines: {node: '>=16.13.2'}
     dependencies:
-      '@puppeteer/browsers': 1.9.0
-      chromium-bidi: 0.5.1(devtools-protocol@0.0.1203626)
+      '@puppeteer/browsers': 1.9.1
+      chromium-bidi: 0.5.2(devtools-protocol@0.0.1203626)
       cross-fetch: 4.0.0
       debug: 4.3.4
       devtools-protocol: 0.0.1203626
-      ws: 8.15.1
+      ws: 8.16.0
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -2749,15 +2749,15 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer@21.6.1:
-    resolution: {integrity: sha512-O+pbc61oj8ln6m8EJKncrsQFmytgRyFYERtk190PeLbJn5JKpmmynn2p1PiFrlhCitAQXLJ0MOy7F0TeyCRqBg==}
+  /puppeteer@21.7.0:
+    resolution: {integrity: sha512-Yy+UUy0b9siJezbhHO/heYUoZQUwyqDK1yOQgblTt0l97tspvDVFkcW9toBlnSvSfkDmMI3Dx9cZL6R8bDArHA==}
     engines: {node: '>=16.13.2'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@puppeteer/browsers': 1.9.0
+      '@puppeteer/browsers': 1.9.1
       cosmiconfig: 8.3.6
-      puppeteer-core: 21.6.1
+      puppeteer-core: 21.7.0
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -2991,11 +2991,12 @@ packages:
       range-parser: 1.2.0
     dev: true
 
-  /set-function-length@1.1.1:
-    resolution: {integrity: sha512-VoaqjbBJKiWtg4yRcKBQ7g7wnGnLV3M8oLvVWwOk2PdYY6PEFegR1vezXR0tw6fZGF9csVakIRjrJiy2veSBFQ==}
+  /set-function-length@1.2.0:
+    resolution: {integrity: sha512-4DBHDoyHlM1IRPGYcoxexgh67y4ueR53FKV1yyxwFMY7aCqcN/38M1+SwZ/qJQ8iLv7+ck385ot4CcisOAPT9w==}
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.1
+      function-bind: 1.1.2
       get-intrinsic: 1.2.2
       gopd: 1.0.1
       has-property-descriptors: 1.0.1
@@ -3277,11 +3278,11 @@ packages:
     dependencies:
       mkdirp-classic: 0.5.3
       pump: 3.0.0
-      tar-stream: 3.1.6
+      tar-stream: 3.1.7
     dev: true
 
-  /tar-stream@3.1.6:
-    resolution: {integrity: sha512-B/UyjYwPpMBv+PaFSWAmtYjwdrlEaZQEhMIBFNC5oEG8lpiW8XjcSdmEaClj28ArfKScKHs2nshz3k2le6crsg==}
+  /tar-stream@3.1.7:
+    resolution: {integrity: sha512-qJj60CXt7IU1Ffyc3NJMjh6EkuCFej46zUqJ4J7pqYlThyd9bO0XBTmcOIhSzZJVWfsLks0+nle/j538YAW9RQ==}
     dependencies:
       b4a: 1.6.4
       fast-fifo: 1.3.2
@@ -3388,12 +3389,11 @@ packages:
       - supports-color
     dev: true
 
-  /textlint-rule-no-mix-dearu-desumasu@5.0.0:
-    resolution: {integrity: sha512-fBNWXBUeP9xuxZYjNqm3PQDsHStYPxpkJaLwTvbNQEZ6rpC1dHsHwLujYtuAQVuvrfxxU6J4jtepP61rhjPA8g==}
+  /textlint-rule-no-mix-dearu-desumasu@6.0.2:
+    resolution: {integrity: sha512-h/Vs6qltBlkm7bmKT2rtJ6jZriNV3uTr5fxKuPMBUHVUMnAuQvz3lI7oFrGC10Pxny+Ofng5fbLiYntHq/ymaA==}
     dependencies:
       analyze-desumasu-dearu: 5.0.1
       textlint-rule-helper: 2.3.1
-      unist-util-visit: 3.1.0
     dev: true
 
   /textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet@1.0.1:
@@ -3621,12 +3621,6 @@ packages:
     resolution: {integrity: sha512-ZOQSsnce92GrxSqlnEEseX0gi7GH9zTJZ0p9dtu87WRb/37mMPO2Ilx1s/t9vBHrFhbgweUwb+t7cIn5dxPhZg==}
     dev: true
 
-  /unist-util-is@5.2.1:
-    resolution: {integrity: sha512-u9njyyfEh43npf1M+yGKDGVPbY/JWEemg5nH05ncKPfi+kBbKBJoTdsogMu33uhytuLlv9y0O7GH7fEdwLdLQw==}
-    dependencies:
-      '@types/unist': 2.0.10
-    dev: true
-
   /unist-util-stringify-position@2.0.3:
     resolution: {integrity: sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==}
     dependencies:
@@ -3640,27 +3634,12 @@ packages:
       unist-util-is: 4.1.0
     dev: true
 
-  /unist-util-visit-parents@4.1.1:
-    resolution: {integrity: sha512-1xAFJXAKpnnJl8G7K5KgU7FY55y3GcLIXqkzUj5QF/QVP7biUm0K0O2oqVkYsdjzJKifYeWn9+o6piAK2hGSHw==}
-    dependencies:
-      '@types/unist': 2.0.10
-      unist-util-is: 5.2.1
-    dev: true
-
   /unist-util-visit@2.0.3:
     resolution: {integrity: sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==}
     dependencies:
       '@types/unist': 2.0.10
       unist-util-is: 4.1.0
       unist-util-visit-parents: 3.1.1
-    dev: true
-
-  /unist-util-visit@3.1.0:
-    resolution: {integrity: sha512-Szoh+R/Ll68QWAyQyZZpQzZQm2UPbxibDvaY8Xc9SUtYgPsDzx5AWSk++UUt2hJuow8mvwR+rG+LQLw+KsuAKA==}
-    dependencies:
-      '@types/unist': 2.0.10
-      unist-util-is: 5.2.1
-      unist-util-visit-parents: 4.1.1
     dev: true
 
   /universalify@0.1.2:
@@ -3757,8 +3736,8 @@ packages:
       mkdirp: 0.5.6
     dev: true
 
-  /ws@8.15.1:
-    resolution: {integrity: sha512-W5OZiCjXEmk0yZ66ZN82beM5Sz7l7coYxpRkzS+p9PP+ToQry8szKh+61eNktr7EA9DOwvFGhfC605jDHbP6QQ==}
+  /ws@8.16.0:
+    resolution: {integrity: sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
