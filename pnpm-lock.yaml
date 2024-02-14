@@ -69,8 +69,8 @@ devDependencies:
     specifier: 4.0.1
     version: 4.0.1
   textlint-rule-use-si-units:
-    specifier: 1.0.2
-    version: 1.0.2
+    specifier: 2.0.0
+    version: 2.0.0
 
 packages:
 
@@ -3566,8 +3566,8 @@ packages:
       textlint-rule-helper: 2.3.1
     dev: true
 
-  /textlint-rule-use-si-units@1.0.2:
-    resolution: {integrity: sha512-N1qWbIqlpeH3ihJKuP7IVu4XgtRJyR3fZKr5eareBib1Benq841PF9VuLu/tUr4Qw6rVc0SH3AEPmA4bzff2Mg==}
+  /textlint-rule-use-si-units@2.0.0:
+    resolution: {integrity: sha512-yUtsUngtbOAwk5DIcnU6fkyUmjmN8pTTBDS9A2ltmIz+UMOyQ0i8fnxwbWryt3zMCcI/EgQ5AJFZgLvGpsR4FA==}
     dependencies:
       match-index: 1.0.3
       parsimmon: 1.18.1
