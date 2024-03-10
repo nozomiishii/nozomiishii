@@ -10,7 +10,7 @@ devDependencies:
     version: 1.6.5
   '@nozomiishii/commitlint-config':
     specifier: 0.0.4
-    version: 0.0.4(@types/node@20.11.24)(typescript@5.3.3)
+    version: 0.0.4(@types/node@20.11.25)(typescript@5.4.2)
   '@nozomiishii/markdownlint-cli2-config':
     specifier: 0.3.1
     version: 0.3.1
@@ -25,7 +25,7 @@ devDependencies:
     version: 2.0.2
   md-to-pdf:
     specifier: 5.2.4
-    version: 5.2.4(typescript@5.3.3)
+    version: 5.2.4(typescript@5.4.2)
   sudachi-synonyms-dictionary:
     specifier: 12.0.0
     version: 12.0.0
@@ -111,14 +111,14 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@commitlint/cli@18.6.1(@types/node@20.11.24)(typescript@5.3.3):
+  /@commitlint/cli@18.6.1(@types/node@20.11.25)(typescript@5.4.2):
     resolution: {integrity: sha512-5IDE0a+lWGdkOvKH892HHAZgbAjcj1mT5QrfA/SVbLJV/BbBMGyKN0W5mhgjekPJJwEQdVNvhl9PwUacY58Usw==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
       '@commitlint/format': 18.6.1
       '@commitlint/lint': 18.6.1
-      '@commitlint/load': 18.6.1(@types/node@20.11.24)(typescript@5.3.3)
+      '@commitlint/load': 18.6.1(@types/node@20.11.25)(typescript@5.4.2)
       '@commitlint/read': 18.6.1
       '@commitlint/types': 18.6.1
       execa: 5.1.1
@@ -190,7 +190,7 @@ packages:
       '@commitlint/types': 18.6.1
     dev: true
 
-  /@commitlint/load@18.6.1(@types/node@20.11.24)(typescript@5.3.3):
+  /@commitlint/load@18.6.1(@types/node@20.11.25)(typescript@5.4.2):
     resolution: {integrity: sha512-p26x8734tSXUHoAw0ERIiHyW4RaI4Bj99D8YgUlVV9SedLf8hlWAfyIFhHRIhfPngLlCe0QYOdRKYFt8gy56TA==}
     engines: {node: '>=v18'}
     dependencies:
@@ -199,8 +199,8 @@ packages:
       '@commitlint/resolve-extends': 18.6.1
       '@commitlint/types': 18.6.1
       chalk: 4.1.2
-      cosmiconfig: 8.3.6(typescript@5.3.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.11.24)(cosmiconfig@8.3.6)(typescript@5.3.3)
+      cosmiconfig: 8.3.6(typescript@5.4.2)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.11.25)(cosmiconfig@8.3.6)(typescript@5.4.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -305,11 +305,11 @@ packages:
       fastq: 1.17.1
     dev: true
 
-  /@nozomiishii/commitlint-config@0.0.4(@types/node@20.11.24)(typescript@5.3.3):
+  /@nozomiishii/commitlint-config@0.0.4(@types/node@20.11.25)(typescript@5.4.2):
     resolution: {integrity: sha512-gWjD5VCFiZNSAiVU7TmfFlFwHJUOQvnQlpJ/xZlLm9eBGCRX3hjs95/mNeyopq+OmLk7wBWuvPFttiV6LNrbiA==}
     hasBin: true
     dependencies:
-      '@commitlint/cli': 18.6.1(@types/node@20.11.24)(typescript@5.3.3)
+      '@commitlint/cli': 18.6.1(@types/node@20.11.25)(typescript@5.4.2)
       '@commitlint/config-conventional': 18.6.2
       '@commitlint/types': 18.6.1
     transitivePeerDependencies:
@@ -757,8 +757,8 @@ packages:
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
     dev: true
 
-  /@types/node@20.11.24:
-    resolution: {integrity: sha512-Kza43ewS3xoLgCEpQrsT+xRo/EJej1y0kVYGiLFE1NEODXGzTfwiC6tXTLMQskn1X4/Rjlh0MQUvx9W+L9long==}
+  /@types/node@20.11.25:
+    resolution: {integrity: sha512-TBHyJxk2b7HceLVGFcpAUjsa5zIdsPWlR6XHfyGzd0SFu+/NFgQgMAl96MSDZgQDvJAvV6BKsFOrt6zIL09JDw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -775,7 +775,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.11.24
+      '@types/node': 20.11.25
     dev: true
     optional: true
 
@@ -1013,7 +1013,7 @@ packages:
       es-errors: 1.3.0
       function-bind: 1.1.2
       get-intrinsic: 1.2.4
-      set-function-length: 1.2.1
+      set-function-length: 1.2.2
     dev: true
 
   /callsites@3.1.0:
@@ -1104,8 +1104,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /chromium-bidi@0.5.10(devtools-protocol@0.0.1249869):
-    resolution: {integrity: sha512-4hsPE1VaLLM/sgNK/SlLbI24Ra7ZOuWAjA3rhw1lVCZ8ZiUgccS6cL5L/iqo4hjRcl5vwgYJ8xTtbXdulA9b6Q==}
+  /chromium-bidi@0.5.12(devtools-protocol@0.0.1249869):
+    resolution: {integrity: sha512-sZMgEBWKbupD0Q7lyFu8AWkrE+rs5ycE12jFkGwIgD/VS8lDPtelPlXM7LYaq4zrkZ/O2L3f4afHUHL0ICdKog==}
     peerDependencies:
       devtools-protocol: '*'
     dependencies:
@@ -1215,7 +1215,7 @@ packages:
       split2: 4.2.0
     dev: true
 
-  /cosmiconfig-typescript-loader@5.0.0(@types/node@20.11.24)(cosmiconfig@8.3.6)(typescript@5.3.3):
+  /cosmiconfig-typescript-loader@5.0.0(@types/node@20.11.25)(cosmiconfig@8.3.6)(typescript@5.4.2):
     resolution: {integrity: sha512-+8cK7jRAReYkMwMiG+bxhcNKiHJDM6bR9FD/nGBXOWdMLuYawjF5cGrtLilJ+LGd3ZjCXnJjR5DkfWPoIVlqJA==}
     engines: {node: '>=v16'}
     peerDependencies:
@@ -1223,13 +1223,13 @@ packages:
       cosmiconfig: '>=8.2'
       typescript: '>=4'
     dependencies:
-      '@types/node': 20.11.24
-      cosmiconfig: 8.3.6(typescript@5.3.3)
+      '@types/node': 20.11.25
+      cosmiconfig: 8.3.6(typescript@5.4.2)
       jiti: 1.21.0
-      typescript: 5.3.3
+      typescript: 5.4.2
     dev: true
 
-  /cosmiconfig@8.3.6(typescript@5.3.3):
+  /cosmiconfig@8.3.6(typescript@5.4.2):
     resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1242,10 +1242,10 @@ packages:
       js-yaml: 4.1.0
       parse-json: 5.2.0
       path-type: 4.0.0
-      typescript: 5.3.3
+      typescript: 5.4.2
     dev: true
 
-  /cosmiconfig@9.0.0(typescript@5.3.3):
+  /cosmiconfig@9.0.0(typescript@5.4.2):
     resolution: {integrity: sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1258,7 +1258,7 @@ packages:
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
-      typescript: 5.3.3
+      typescript: 5.4.2
     dev: true
 
   /cross-fetch@4.0.0:
@@ -2525,7 +2525,7 @@ packages:
       regexp.prototype.flags: 1.5.2
     dev: true
 
-  /md-to-pdf@5.2.4(typescript@5.3.3):
+  /md-to-pdf@5.2.4(typescript@5.4.2):
     resolution: {integrity: sha512-s6080i4ZSBfvn7qplSVjdqP9eWi9rIWj+t5pucEKnpAHan89VLQuQPhVx06vWIM+6JX2HrJ1wNRFMiwLlS01vg==}
     engines: {node: '>=12.0'}
     hasBin: true
@@ -2540,7 +2540,7 @@ packages:
       iconv-lite: 0.6.3
       listr: 0.14.3
       marked: 4.3.0
-      puppeteer: 22.3.0(typescript@5.3.3)
+      puppeteer: 22.4.1(typescript@5.4.2)
       semver: 7.6.0
       serve-handler: 6.1.5
     transitivePeerDependencies:
@@ -3251,12 +3251,12 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@22.3.0:
-    resolution: {integrity: sha512-Ho5Vdpdro05ZyCx/l5Hkc5vHiibKTaY37fIAD9NF9Gi/vDxkVTeX40U/mFnEmeoxyuYALvWCJfi7JTT82R6Tuw==}
+  /puppeteer-core@22.4.1:
+    resolution: {integrity: sha512-l9nf8NcirYOHdID12CIMWyy7dqcJCVtgVS+YAiJuUJHg8+9yjgPiG2PcNhojIEEpCkvw3FxvnyITVfKVmkWpjA==}
     engines: {node: '>=18'}
     dependencies:
       '@puppeteer/browsers': 2.1.0
-      chromium-bidi: 0.5.10(devtools-protocol@0.0.1249869)
+      chromium-bidi: 0.5.12(devtools-protocol@0.0.1249869)
       cross-fetch: 4.0.0
       debug: 4.3.4
       devtools-protocol: 0.0.1249869
@@ -3268,15 +3268,15 @@ packages:
       - utf-8-validate
     dev: true
 
-  /puppeteer@22.3.0(typescript@5.3.3):
-    resolution: {integrity: sha512-GC+tyjzYKjaNjhlDAuqRgDM+IOsqOG75Da4L28G4eULNLLxKDt+79x2OOSQ47HheJBgGq7ATSExNE6gayxP6cg==}
+  /puppeteer@22.4.1(typescript@5.4.2):
+    resolution: {integrity: sha512-Mag1wRLanzwS4yEUyrDRBUgsKlH3dpL6oAfVwNHG09oxd0+ySsatMvYj7HwjynWy/S+Hg+XHLgjyC/F6CsL/lg==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@puppeteer/browsers': 2.1.0
-      cosmiconfig: 9.0.0(typescript@5.3.3)
-      puppeteer-core: 22.3.0
+      cosmiconfig: 9.0.0(typescript@5.4.2)
+      puppeteer-core: 22.4.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -3562,8 +3562,8 @@ packages:
       range-parser: 1.2.0
     dev: true
 
-  /set-function-length@1.2.1:
-    resolution: {integrity: sha512-j4t6ccc+VsKwYHso+kElc5neZpjtq9EnRICFZtWyBsLojhmeF/ZBd/elqm22WJh/BziDe/SBiOeAt0m2mfLD0g==}
+  /set-function-length@1.2.2:
+    resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.4
@@ -3920,8 +3920,8 @@ packages:
       unist-util-visit: 2.0.3
     dev: true
 
-  /textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana@2.2.0:
-    resolution: {integrity: sha512-6e5LfdjQgpkvGqMPFLxXtXyfXgc8iLOBuBda1jPWT873ttlfzTR9djjS7zmTkmNZDO4x0nvYPNTxCvgvilzlMQ==}
+  /textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana@2.3.1:
+    resolution: {integrity: sha512-Www5ZIbCEcXIV3CvZkNQ7oyOi9PHuPAl6hpyMh5oHsEXpvnt/+0ihI/LoXEW5Y4eZCocLXG0Pq1MHMQe+EEKXQ==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
@@ -3934,44 +3934,44 @@ packages:
       textlint-rule-helper: 2.3.1
     dev: true
 
-  /textlint-rule-ja-no-space-around-parentheses@2.2.0:
-    resolution: {integrity: sha512-7m6n2XzOyYRVDvRfdYIxz6Qg23KA7BslYW44dAxYtmdVuDzQNKoSbZoGkZju/ITKsiN4JW+e/zEfFAY/qBEucQ==}
+  /textlint-rule-ja-no-space-around-parentheses@2.3.1:
+    resolution: {integrity: sha512-LKbk1Tng7HTIR5GuPkGcGaaf17jwAwjT5RPlxhbJiC0CMn7kuc+/7i9PWbxDgchjwQbK18kyRjpaymEpJhHrZw==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
     dev: true
 
-  /textlint-rule-ja-no-space-between-full-width@2.2.0:
-    resolution: {integrity: sha512-oe5hOTbiKyhSTsBVroRk1mJqfUuCFeHexK3Sb6KWBET9sAhN3j7BnoKwxe2mjiDX5nXg+7Ka3ziwfQlnQ41l0w==}
+  /textlint-rule-ja-no-space-between-full-width@2.3.1:
+    resolution: {integrity: sha512-AEcVgo0dN7pZ4MkfqJHA9EOfxtCX683PRz805WKgViFe74SPY6rYTLn4ck2W2yhaGxdygyFPDTPoxMQD+wWdSw==}
     dependencies:
       match-index: 1.0.3
       regx: 1.0.4
       textlint-rule-helper: 2.3.1
     dev: true
 
-  /textlint-rule-ja-space-after-exclamation@2.2.0:
-    resolution: {integrity: sha512-Foc9OzQ1WvdyKJnfXlj8DmODStNw13LpWhQK+yLecVYd3h8vLhaGvnpTitM6hj2Ep7klmX54Csn/iKDfGHb4Hw==}
+  /textlint-rule-ja-space-after-exclamation@2.3.1:
+    resolution: {integrity: sha512-/ir11Itm4LDxojYLt4IZQ/bpQx0c/TM58ofERuHwUpwJSewHrA/bdwmfQdfz1nmtAAaPUixt28TDNY/KoyRbQg==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
     dev: true
 
-  /textlint-rule-ja-space-after-question@2.2.0:
-    resolution: {integrity: sha512-SoYKd8x0kPVp/4sa8XOE/62SAganWpbDcGl1CJ7aTk151+pO2C7Z34UnjeC9olYYxM9m0pZ0AOfdCwB3yvteJw==}
+  /textlint-rule-ja-space-after-question@2.3.1:
+    resolution: {integrity: sha512-Fsbl8Xb0lxkQ3uOCi2b5XgzkFwk3M95TkxuR39EbgEJVrK9pNuXUdhQnJ/HlvkW2fcn5X2k+6mUW3YATWzVmzg==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
     dev: true
 
-  /textlint-rule-ja-space-around-code@2.2.0:
-    resolution: {integrity: sha512-JJfnSTFJCBL618TYVMqFfil8r7MhZuY0tEg2kyD6k/gcjbYFBx050pEl/RJJ5uD3UShLV7y4t289Gg9zuNjklw==}
+  /textlint-rule-ja-space-around-code@2.3.1:
+    resolution: {integrity: sha512-LIEqgYTthKaHzTV7MVKzF5qEgk0EJPpwFk8kfBA69K+KhlhT/bf5VEA9yMegUoiebVYF3NC3TAQZ9m1ZMECcTw==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
     dev: true
 
-  /textlint-rule-ja-space-between-half-and-full-width@2.3.0:
-    resolution: {integrity: sha512-XJmw9fiKCK32P1fVGnYsqr1RdrWxTSqVqBPPHFVaIZhS1pBR7FsxdcR1SD6vEKe+EBJDEEZhJxrw8Pi1E5E22g==}
+  /textlint-rule-ja-space-between-half-and-full-width@2.3.1:
+    resolution: {integrity: sha512-kUaP2XnqF/oSlx12ECvp79/3VCylD3fy7qWXpXuo9yr8E3q9i8K7qxxhjcPKKFdufVCgxoN8a7HliDcn4mhfzg==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
@@ -4025,13 +4025,13 @@ packages:
   /textlint-rule-preset-ja-spacing@2.3.0:
     resolution: {integrity: sha512-HqDv2P69uNFFRSYE22GW3xuApXUmcNr17pAaYn72nVRdUQsxfP4GBNlxONghj1US1G1ipXcfllE9xQ7tKTZWpw==}
     dependencies:
-      textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana: 2.2.0
-      textlint-rule-ja-no-space-around-parentheses: 2.2.0
-      textlint-rule-ja-no-space-between-full-width: 2.2.0
-      textlint-rule-ja-space-after-exclamation: 2.2.0
-      textlint-rule-ja-space-after-question: 2.2.0
-      textlint-rule-ja-space-around-code: 2.2.0
-      textlint-rule-ja-space-between-half-and-full-width: 2.3.0
+      textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana: 2.3.1
+      textlint-rule-ja-no-space-around-parentheses: 2.3.1
+      textlint-rule-ja-no-space-between-full-width: 2.3.1
+      textlint-rule-ja-space-after-exclamation: 2.3.1
+      textlint-rule-ja-space-after-question: 2.3.1
+      textlint-rule-ja-space-around-code: 2.3.1
+      textlint-rule-ja-space-between-half-and-full-width: 2.3.1
     dev: true
 
   /textlint-rule-sentence-length@5.0.0:
@@ -4199,8 +4199,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /typescript@5.3.3:
-    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+  /typescript@5.4.2:
+    resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
