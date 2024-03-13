@@ -60,8 +60,8 @@ devDependencies:
     specifier: 1.0.1
     version: 1.0.1
   textlint-rule-preset-ja-spacing:
-    specifier: 2.3.0
-    version: 2.3.0
+    specifier: 2.3.1
+    version: 2.3.1
   textlint-rule-sentence-length:
     specifier: 5.0.0
     version: 5.0.0
@@ -3970,6 +3970,13 @@ packages:
       textlint-rule-helper: 2.3.1
     dev: true
 
+  /textlint-rule-ja-space-around-link@2.3.1:
+    resolution: {integrity: sha512-PKdSRQfrfEqeBET/6TBJ7Dm2/024XDXzG4iLoaJGjaO70hd76JJiLUBTEZMSV2bYF9RM/6SsLJLN62MDRiknuA==}
+    dependencies:
+      match-index: 1.0.3
+      textlint-rule-helper: 2.3.1
+    dev: true
+
   /textlint-rule-ja-space-between-half-and-full-width@2.3.1:
     resolution: {integrity: sha512-kUaP2XnqF/oSlx12ECvp79/3VCylD3fy7qWXpXuo9yr8E3q9i8K7qxxhjcPKKFdufVCgxoN8a7HliDcn4mhfzg==}
     dependencies:
@@ -4022,8 +4029,8 @@ packages:
       check-ends-with-period: 3.0.2
     dev: true
 
-  /textlint-rule-preset-ja-spacing@2.3.0:
-    resolution: {integrity: sha512-HqDv2P69uNFFRSYE22GW3xuApXUmcNr17pAaYn72nVRdUQsxfP4GBNlxONghj1US1G1ipXcfllE9xQ7tKTZWpw==}
+  /textlint-rule-preset-ja-spacing@2.3.1:
+    resolution: {integrity: sha512-U7W9rbIcZ+cvo5Yu/cUA34V4W34vEgyavmW85O2dRAcCltLUcoiKW6th6ubCh16BxuDwhVtY/8pKFU8AGHmhbg==}
     dependencies:
       textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana: 2.3.1
       textlint-rule-ja-no-space-around-parentheses: 2.3.1
@@ -4031,6 +4038,7 @@ packages:
       textlint-rule-ja-space-after-exclamation: 2.3.1
       textlint-rule-ja-space-after-question: 2.3.1
       textlint-rule-ja-space-around-code: 2.3.1
+      textlint-rule-ja-space-around-link: 2.3.1
       textlint-rule-ja-space-between-half-and-full-width: 2.3.1
     dev: true
 
