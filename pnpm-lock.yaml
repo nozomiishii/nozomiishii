@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@evilmartians/lefthook':
-    specifier: 1.6.5
-    version: 1.6.5
+    specifier: 1.6.6
+    version: 1.6.6
   '@nozomiishii/commitlint-config':
     specifier: 0.0.4
     version: 0.0.4(@types/node@20.11.25)(typescript@5.4.2)
@@ -276,8 +276,8 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@evilmartians/lefthook@1.6.5:
-    resolution: {integrity: sha512-OtHskXpEdDE4UNMLqtlkEdNOmg80Yy1aq7aqo6s6rVi9MUpksGkVNL3oS4oBdpjJhGwkSordBpclbQrHIUhjkg==}
+  /@evilmartians/lefthook@1.6.6:
+    resolution: {integrity: sha512-utdo+0gf1KOdtkWd709exejQhXzyh6WnK7+OkpZyCBfdwg6OC3omfeXe0HEKEQiyGCCeWYpRrjhY8cAaddqMrw==}
     cpu: [x64, arm64, ia32]
     os: [darwin, linux, win32]
     hasBin: true
