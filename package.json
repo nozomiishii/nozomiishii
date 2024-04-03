@@ -18,7 +18,8 @@
     "format": "pnpm prettier --check",
     "format:fix": "pnpm prettier --write",
     "pdf:cv": "md-to-pdf src/cv/cv-ja.md",
-    "pdf:pay": "md-to-pdf src/cv/pay-ja.md",
+    "pdf:pay": "md-to-pdf src/pay/pay-ja.md",
+    "pdf:resume": "md-to-pdf src/resume/resume.md",
     "prettier": "prettier . '!docs' --ignore-unknown",
     "setup": "./scripts/setup.sh"
   },
