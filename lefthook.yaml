@@ -22,9 +22,9 @@ pre-commit:
     generate-pdf-cv:
       files: git diff --name-only --staged
       glob: 'src/cv/cv-ja.md'
-      run: npx -y md-to-pdf src/cv/cv-ja.md && git add src/cv/cv-ja.pdf
+      run: pnpm run pdf:cv src/cv/cv-ja.md && git add src/cv/cv-ja.pdf
 
     generate-pdf-pay:
       files: git diff --name-only --staged
       glob: 'src/pay/pay-ja.md'
-      run: npx -y md-to-pdf src/pay/pay-ja.md && git add src/pay/pay-ja.pdf
+      run: pnpm run pdf:pay src/pay/pay-ja.md && git add src/pay/pay-ja.pdf

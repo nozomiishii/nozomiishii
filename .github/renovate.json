@@ -1,1 +1,12 @@
-{ "extends": ["github>nozomiishii/renovate"] }
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>nozomiishii/renovate"],
+
+  "packageRules": [
+    {
+      "description": "https://github.com/simonhaenisch/md-to-pdf/issues/247",
+      "matchPackageNames": ["md-to-pdf"],
+      "allowedVersions": "5.1.0"
+    }
+  ]
+}
