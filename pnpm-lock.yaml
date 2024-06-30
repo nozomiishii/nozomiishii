@@ -69,8 +69,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0
       textlint-rule-terminology:
-        specifier: 5.0.17
-        version: 5.0.17
+        specifier: 5.0.19
+        version: 5.0.19
       textlint-rule-use-si-units:
         specifier: 2.0.0
         version: 2.0.0
@@ -2214,8 +2214,8 @@ packages:
   textlint-rule-sentence-length@5.0.0:
     resolution: {integrity: sha512-NRbzbMYSKZVZWTarJo/uVpHMGe91uZyR4td6fipWmDAwJjjX2HYa6aYEfLM/X99ymo9aLUnOD6wWaUttgViRbw==}
 
-  textlint-rule-terminology@5.0.17:
-    resolution: {integrity: sha512-rbWloJT6GPo20x8+gz0gcaSwa5V0B9BSU0uo7ECjhEEN0I2D6jnBpWUvB8P0jXzMAaW6Th5YFsYgmgoiepg4Xg==}
+  textlint-rule-terminology@5.0.19:
+    resolution: {integrity: sha512-9e7v4ddUmL47eqzR8fVERbAzCaai1F9EXjY0uRoF7tvWNCPRateodz5U2sh7XLW1Hxdd88oSjzIcet26qu1CPw==}
     engines: {node: '>=20'}
 
   textlint-rule-use-si-units@2.0.0:
@@ -4986,7 +4986,7 @@ snapshots:
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
 
-  textlint-rule-terminology@5.0.17:
+  textlint-rule-terminology@5.0.19:
     dependencies:
       lodash: 4.17.21
       strip-json-comments: 3.1.1
