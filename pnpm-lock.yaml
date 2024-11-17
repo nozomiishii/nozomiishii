@@ -733,8 +733,8 @@ packages:
     resolution: {integrity: sha512-qE3Veg1YXzGHQhlA6jzebZN2qVf6NX+A7m7qlhCGG30dJixrAQhYOsJjsnBjJkCSmuOPpCk30145fr8FV0bzog==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  devtools-protocol@0.0.1354347:
-    resolution: {integrity: sha512-BlmkSqV0V84E2WnEnoPnwyix57rQxAM5SKJjf4TbYOCGLAWtz8CDH8RIaGOjPgPCXo2Mce3kxSY497OySidY3Q==}
+  devtools-protocol@0.0.1367902:
+    resolution: {integrity: sha512-XxtPuC3PGakY6PD7dG66/o8KwJ/LkH2/EKe19Dcw58w53dv4/vSQEkn/SzuyhHE2q4zPgCkxQBxus3VV4ql+Pg==}
 
   diff@5.2.0:
     resolution: {integrity: sha512-uIFDxqpRZGZ6ThOk84hEfqWoHx2devRFvpTZcTHur85vImfaxUbTW9Ryh4CpCuDnToOP1CEtXKIgytHBPVff5A==}
@@ -781,8 +781,8 @@ packages:
   error-ex@1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
 
-  es-abstract@1.23.3:
-    resolution: {integrity: sha512-e+HfNH61Bj1X9/jLc5v1owaLYuHdeHHSQlkhCBiTK8rBvKaULl/beGMxwrMXjpYrv4pz22BlY570vVePA2ho4A==}
+  es-abstract@1.23.5:
+    resolution: {integrity: sha512-vlmniQ0WNPwXqA0BnmwV3Ng7HxiGlh6r5U6JcTMNx8OilcAGqVJBHJcPjqOMaczU9fRuRK5Px2BdVyPRnKMMVQ==}
     engines: {node: '>= 0.4'}
 
   es-define-property@1.0.0:
@@ -1857,12 +1857,12 @@ packages:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
     engines: {node: '>=6'}
 
-  puppeteer-core@23.7.1:
-    resolution: {integrity: sha512-Om/qCZhd+HLoAr7GltrRAZpS3uOXwHu7tXAoDbNcJADHjG2zeAlDArgyIPXYGG4QB/EQUHk13Q6RklNxGM73Pg==}
+  puppeteer-core@23.8.0:
+    resolution: {integrity: sha512-c2ymGN2M//We7pC+JhP2dE/g4+qnT89BO+EMSZyJmecN3DN6RNqErA7eH7DrWoNIcU75r2nP4VHa4pswAL6NVg==}
     engines: {node: '>=18'}
 
-  puppeteer@23.7.1:
-    resolution: {integrity: sha512-jS6XehagMvxQ12etwY/4EOYZ0Sm8GAsrtGhdQn4AqpJAyHc3RYl7tGd4QYh/MmShDw8sF9FWYQqGidhoXaqokQ==}
+  puppeteer@23.8.0:
+    resolution: {integrity: sha512-MFWDMWoCcOpwNwQIjA9gPKWrEUbj8bLCzkK56w5lZPMUT6wK4FfpgOEPxKffVmXEMYMZzgcjxzqy15b/Q1ibaw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2082,8 +2082,8 @@ packages:
   sprintf-js@1.1.3:
     resolution: {integrity: sha512-Oo+0REFV59/rz3gfJNKQiBlwfHaSESl1pcGyABQsnnIfWOFt6JNj5gCog2U6MLZ//IGYD+nA8nI+mTShREReaA==}
 
-  streamx@2.20.1:
-    resolution: {integrity: sha512-uTa0mU6WUC65iUvzKH4X9hEdvSW7rbPxPtwfWiLMSj3qTdQbAiUboZTxauKfpFuGIGa1C2BYijZ7wgdUXICJhA==}
+  streamx@2.20.2:
+    resolution: {integrity: sha512-aDGDLU+j9tJcUdPGOaHmVF1u/hhI+CsGkT02V3OKlHDV7IukOI+nTWAGkiZEKCO35rWN1wIr4tS7YFr1f4qSvA==}
 
   string-width@1.0.2:
     resolution: {integrity: sha512-0XsVpQLnVCXHJfyEs8tC0zpTVIr5PKKsQtkT29IwupnPTjtPmQ3xT/4yCREF9hYkV/3M3kzcUTSAZT6a6h81tw==}
@@ -3050,7 +3050,7 @@ snapshots:
       array-buffer-byte-length: 1.0.1
       call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.23.3
+      es-abstract: 1.23.5
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
       is-array-buffer: 3.0.4
@@ -3096,7 +3096,7 @@ snapshots:
 
   bare-stream@2.3.2:
     dependencies:
-      streamx: 2.20.1
+      streamx: 2.20.2
     optional: true
 
   base64-js@1.5.1: {}
@@ -3186,9 +3186,9 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  chromium-bidi@0.8.0(devtools-protocol@0.0.1354347):
+  chromium-bidi@0.8.0(devtools-protocol@0.0.1367902):
     dependencies:
-      devtools-protocol: 0.0.1354347
+      devtools-protocol: 0.0.1367902
       mitt: 3.0.1
       urlpattern-polyfill: 10.0.0
       zod: 3.23.8
@@ -3339,7 +3339,7 @@ snapshots:
 
   detect-newline@4.0.1: {}
 
-  devtools-protocol@0.0.1354347: {}
+  devtools-protocol@0.0.1367902: {}
 
   diff@5.2.0: {}
 
@@ -3375,7 +3375,7 @@ snapshots:
     dependencies:
       is-arrayish: 0.2.1
 
-  es-abstract@1.23.3:
+  es-abstract@1.23.5:
     dependencies:
       array-buffer-byte-length: 1.0.1
       arraybuffer.prototype.slice: 1.0.3
@@ -3587,7 +3587,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.23.3
+      es-abstract: 1.23.5
       functions-have-names: 1.2.3
 
   functions-have-names@1.2.3: {}
@@ -4147,7 +4147,7 @@ snapshots:
       iconv-lite: 0.6.3
       listr: 0.14.3
       marked: 4.3.0
-      puppeteer: 23.7.1(typescript@5.6.3)
+      puppeteer: 23.8.0(typescript@5.6.3)
       semver: 7.6.3
       serve-handler: 6.1.6
     transitivePeerDependencies:
@@ -4565,12 +4565,12 @@ snapshots:
 
   punycode.js@2.3.1: {}
 
-  puppeteer-core@23.7.1:
+  puppeteer-core@23.8.0:
     dependencies:
       '@puppeteer/browsers': 2.4.1
-      chromium-bidi: 0.8.0(devtools-protocol@0.0.1354347)
+      chromium-bidi: 0.8.0(devtools-protocol@0.0.1367902)
       debug: 4.3.7
-      devtools-protocol: 0.0.1354347
+      devtools-protocol: 0.0.1367902
       typed-query-selector: 2.12.0
       ws: 8.18.0
     transitivePeerDependencies:
@@ -4578,13 +4578,13 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  puppeteer@23.7.1(typescript@5.6.3):
+  puppeteer@23.8.0(typescript@5.6.3):
     dependencies:
       '@puppeteer/browsers': 2.4.1
-      chromium-bidi: 0.8.0(devtools-protocol@0.0.1354347)
+      chromium-bidi: 0.8.0(devtools-protocol@0.0.1367902)
       cosmiconfig: 9.0.0(typescript@5.6.3)
-      devtools-protocol: 0.0.1354347
-      puppeteer-core: 23.7.1
+      devtools-protocol: 0.0.1367902
+      puppeteer-core: 23.8.0
       typed-query-selector: 2.12.0
     transitivePeerDependencies:
       - bufferutil
@@ -4839,7 +4839,7 @@ snapshots:
 
   sprintf-js@1.1.3: {}
 
-  streamx@2.20.1:
+  streamx@2.20.2:
     dependencies:
       fast-fifo: 1.3.2
       queue-tick: 1.0.1
@@ -4874,7 +4874,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.23.3
+      es-abstract: 1.23.5
       es-object-atoms: 1.0.0
 
   string.prototype.trimend@1.0.8:
@@ -4962,7 +4962,7 @@ snapshots:
     dependencies:
       b4a: 1.6.7
       fast-fifo: 1.3.2
-      streamx: 2.20.1
+      streamx: 2.20.2
 
   text-decoder@1.2.1: {}
 
@@ -5215,7 +5215,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.23.3
+      es-abstract: 1.23.5
       es-errors: 1.3.0
       typed-array-buffer: 1.0.2
       typed-array-byte-offset: 1.0.2
