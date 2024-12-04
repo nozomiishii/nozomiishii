@@ -33,8 +33,8 @@ importers:
         specifier: 14.0.0
         version: 14.0.0
       textlint:
-        specifier: 14.3.0
-        version: 14.3.0
+        specifier: 14.4.0
+        version: 14.4.0
       textlint-rule-date-weekday-mismatch:
         specifier: 1.0.6
         version: 1.0.6
@@ -2307,8 +2307,8 @@ packages:
   textlint-util-to-string@3.3.4:
     resolution: {integrity: sha512-XF4Qfw0ES+czKy03BwuvBUoXC8NAg920VuRxW0pd72fW76zMeMbPI/bRN5PHq3SbCdOm7U69/Pk+DX34xqIYqA==}
 
-  textlint@14.3.0:
-    resolution: {integrity: sha512-oarGVGz7KwRd08QOvNDSffzjEyfS5mnGp7ZAxr799QC0HDBp0VM358WGyxdaboDXav1RlkQ3TWkvOvHBBMXCXw==}
+  textlint@14.4.0:
+    resolution: {integrity: sha512-OutNGN573fI48bRdikgz+PAjCN/P4DRK9dLGxkNkqBlWmwbxLpvBxw1qspZEFVVLoNH94ra65NDfCwMvCosvdA==}
     engines: {node: '>=18.14.0'}
     hasBin: true
 
@@ -5196,7 +5196,7 @@ snapshots:
       structured-source: 4.0.0
       unified: 8.4.2
 
-  textlint@14.3.0:
+  textlint@14.4.0:
     dependencies:
       '@textlint/ast-node-types': 14.4.0
       '@textlint/ast-traverse': 14.4.0
