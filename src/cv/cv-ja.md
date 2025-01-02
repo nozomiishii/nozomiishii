@@ -64,7 +64,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pu
 - PlaywrightでのE2Eテスト自動化
 - StorybookでのUIカタログ、コンポーネントテスト作成自動化
 - GitHub ActionsでのCI/CDの導入
-- Bashを使ったタスク自動化
+- Bash, zxを使ったタスク自動化
 - Git Hooksの導入
 - Vitestを使った単体テスト導入
 - TailwindCSSの導入、開発
@@ -76,11 +76,22 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pu
 
 ## 主な業務経歴
 
+### 企業や自治体のCO2排出量の可視化や削減を支援するサービスプラットフォーム開発 (2024 年 5 月 〜)
+
+#### 【担当業務】新規アプリ開発/開発環境構築/フロントエンド開発/現行機能の保守運用
+
+- Next.js 15 App Routerを使用したアプリ開発
+- zxを使ったタスク自動化
+- chromaticでのVRT、playwrightのコンポーネントテストとe2eテストの自動化
+- 社内UIライブラリの作成
+- OpenAPIを元にCodeの自動生成
+- React Server componentsに対応したi18n環境の構築
+
 ### 銀行業界向けデジタルインフラ新規開発 (2023 年 5 月 〜　2024 年 4 月)
 
 #### 【担当業務】開発環境構築/フロントエンド開発/社内共通ライブラリ開発
 
-- Next.js 14 App Routerを使用したSPA開発
+- Next.js 14 App Routerを使用したアプリ開発
 - PNPM、TurboRepoを使用したMono repository開発
 - Storybookを使用したUIカタログ作成
 - Figmaからデザイントークンの作成
@@ -93,7 +104,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pu
 
 #### 【担当業務】開発環境構築/フロントエンド開発/BFF 開発/バックエンド開発/現行機能の保守運用
 
-- Next.jsを使用したSPA開発、保守運用
+- Next.jsを使用したアプリ開発、保守運用
 - NestJSを使用したRest API、GraphQL、gRPC開発、保守運用
 - Rustを使用したgRPC開発、保守運用
 - Yarn Workspace、Lernaを使用したMono repository開発
@@ -109,7 +120,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pu
 
 #### 【担当業務】フロントエンド開発/API 設計/チームリーダー
 
-- Next.js、Reactを使用したSPA開発
+- Next.js、Reactを使用したアプリ開発
 - TurboRepoを使用したMono repository開発
 - OpenAPIを使用したAPI設計
 - TailwindCSSの導入
