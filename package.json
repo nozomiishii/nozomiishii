@@ -24,7 +24,7 @@
     "setup": "./scripts/setup.sh"
   },
   "devDependencies": {
-    "@evilmartians/lefthook": "1.10.8",
+    "@evilmartians/lefthook": "1.10.9",
     "@nozomiishii/commitlint-config": "0.0.5",
     "@nozomiishii/markdownlint-cli2-config": "0.3.1",
     "@nozomiishii/prettier-config": "0.6.2",
