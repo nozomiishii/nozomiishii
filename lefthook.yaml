@@ -13,6 +13,7 @@ remotes:
 
 pre-commit:
   parallel: true
+  interactive: true
 
   commands:
     lint-textlint:
