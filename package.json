@@ -47,9 +47,9 @@
     "textlint-rule-terminology": "5.2.12",
     "textlint-rule-use-si-units": "2.0.0"
   },
-  "packageManager": "pnpm@10.7.0",
+  "packageManager": "pnpm@10.7.1",
   "volta": {
     "node": "22.14.0",
-    "pnpm": "10.7.0"
+    "pnpm": "10.7.1"
   }
 }
