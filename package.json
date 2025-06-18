@@ -48,8 +48,9 @@
     "textlint-rule-use-si-units": "2.0.0"
   },
   "packageManager": "pnpm@10.12.1",
-  "volta": {
-    "node": "22.16.0",
-    "pnpm": "10.12.1"
+  "pnpm": {
+    "executionEnv": {
+      "nodeVersion": "22.16.0"
+    }
   }
 }
