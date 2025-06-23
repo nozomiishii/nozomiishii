@@ -36,8 +36,8 @@ importers:
         specifier: 14.8.4
         version: 14.8.4
       textlint-rule-date-weekday-mismatch:
-        specifier: 1.1.0
-        version: 1.1.0
+        specifier: 1.1.1
+        version: 1.1.1
       textlint-rule-footnote-order:
         specifier: 1.0.3
         version: 1.0.3
@@ -2575,8 +2575,8 @@ packages:
   text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
 
-  textlint-rule-date-weekday-mismatch@1.1.0:
-    resolution: {integrity: sha512-vFuSKGpMFcRWh7LSvYKVE7QQBGxm2/1w2oIvMLfHN5EnXiFGQqrK560Otvc0POKf9yUIDI2iIMfT85z+st+LiA==}
+  textlint-rule-date-weekday-mismatch@1.1.1:
+    resolution: {integrity: sha512-gxkRW31j1ON1V2Qr+JB+LOWsJY5ex24g0mr60FkR9Pnj1r08qOVr67G4O6Xc1fSXdj2gKz7RaKXMjuTr2e+b0Q==}
 
   textlint-rule-footnote-order@1.0.3:
     resolution: {integrity: sha512-HH4AWGi05S88XJ0HTzihOpVPDV+BRpnqt/MXnVcQBHTc6wGxNgVoBWN19o43G3D8m3GYnoUAR8UF/IbAYbKolA==}
@@ -5945,7 +5945,7 @@ snapshots:
 
   text-table@0.2.0: {}
 
-  textlint-rule-date-weekday-mismatch@1.1.0:
+  textlint-rule-date-weekday-mismatch@1.1.1:
     dependencies:
       chrono-node: 1.4.9
       moment: 2.30.1
