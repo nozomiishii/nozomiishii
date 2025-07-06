@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@evilmartians/lefthook':
-        specifier: 1.11.14
-        version: 1.11.14
+        specifier: 1.11.15
+        version: 1.11.15
       '@nozomiishii/commitlint-config':
         specifier: 0.0.6
         version: 0.0.6(@types/node@24.0.3)(typescript@5.8.3)
@@ -164,8 +164,8 @@ packages:
     resolution: {integrity: sha512-/yCrWGCoA1SVKOks25EGadP9Pnj0oAIHGpl2wH2M2Y46dPM2ueb8wyCVOD7O3WCTkaJ0IkKvzhl1JY7+uCT2Dw==}
     engines: {node: '>=v18'}
 
-  '@evilmartians/lefthook@1.11.14':
-    resolution: {integrity: sha512-vh6lqXVwh7uhI5C/gKB7InW8RyMFYXN27U4Hlum8ZBcDrOviF9fmcBJf4C6ZboWkD3j8v1qp4psc3bwynhPlTQ==}
+  '@evilmartians/lefthook@1.11.15':
+    resolution: {integrity: sha512-/l4mzLex2ZxF5hIsIq1YX5lCl5NUjKVDVqMqHLKkxP2qlOGOgdU9ov7CaJscc1b1rhrXXHs6a3ycI/rHEjbDOA==}
     cpu: [x64, arm64, ia32]
     os: [darwin, linux, win32]
     hasBin: true
@@ -2929,7 +2929,7 @@ snapshots:
       '@types/conventional-commits-parser': 5.0.1
       chalk: 5.4.1
 
-  '@evilmartians/lefthook@1.11.14': {}
+  '@evilmartians/lefthook@1.11.15': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
