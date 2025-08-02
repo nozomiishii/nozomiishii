@@ -47,10 +47,12 @@
     "textlint-rule-terminology": "5.2.14",
     "textlint-rule-use-si-units": "2.0.0"
   },
-  "packageManager": "pnpm@10.13.1",
-  "pnpm": {
-    "executionEnv": {
-      "nodeVersion": "22.16.0"
+  "packageManager": "pnpm@10.14.0",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "22.18.0",
+      "onFail": "download"
     }
   }
 }
