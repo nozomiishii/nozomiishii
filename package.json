@@ -48,11 +48,9 @@
     "textlint-rule-use-si-units": "2.0.0"
   },
   "packageManager": "pnpm@10.14.0",
-  "devEngines": {
-    "runtime": {
-      "name": "node",
-      "version": "22.18.0",
-      "onFail": "download"
+  "pnpm": {
+    "executionEnv": {
+      "nodeVersion": "22.14.0"
     }
   }
 }
