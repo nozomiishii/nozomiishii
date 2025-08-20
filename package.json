@@ -15,6 +15,8 @@
   "type": "module",
   "main": "README.md",
   "scripts": {
+    "clean:all": "git clean -fdX",
+    "clean:node": "npkill --delete-all -y",
     "format": "pnpm prettier --check",
     "format:fix": "pnpm prettier --write",
     "pdf:cv": "md-to-pdf src/cv/cv-ja.md",
