@@ -1,31 +1,28 @@
-# Refer for explanation to following link:
+# @see
 # https://github.com/evilmartians/lefthook
 #
 # Run the command to test:
-#   npx -y lefthook run -v <hook-name>
+#   pnpx lefthook run [-v,--verbose] <hook-name>
 #
-# Example:
-#   npx -y lefthook run -v post-merge
-
-remotes:
-  - git_url: https://github.com/nozomiishii/configs
-    configs:
-      - packages/lefthook-config/index.yaml
+# Examples:
+#   pnpx lefthook run --verbose pre-commit
+#   pnpx lefthook run --verbose commit-msg
+#   pnpx lefthook run --verbose post-merge
+extends:
+  - ./node_modules/@nozomiishii/lefthook-config/index.yaml
 
 pre-commit:
   parallel: true
 
-  commands:
-    lint-textlint:
+  jobs:
+    - name: lint-textlint
       glob: '*.md'
-      run: npx -y textlint --fix {staged_files}
+      run: pnpm exec textlint {staged_files}
 
-    generate-pdf-cv:
-      files: git diff --name-only --staged
+    - name: generate-pdf-cv
       glob: 'src/cv/cv-ja.md'
       run: pnpm run pdf:cv src/cv/cv-ja.md && git add src/cv/cv-ja.pdf
 
-    generate-pdf-pay:
-      files: git diff --name-only --staged
+    - name: generate-pdf-pay
       glob: 'src/pay/pay-ja.md'
       run: pnpm run pdf:pay src/pay/pay-ja.md && git add src/pay/pay-ja.pdf
