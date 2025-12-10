@@ -21,7 +21,7 @@
 
 ### 言語等
 
-TypeScript | Bash | Rust
+TypeScript | Rust
 
 ### フレームワーク等
 
@@ -78,9 +78,9 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pu
 
 ### 企業や自治体のCO2排出量の可視化や削減を支援するサービスプラットフォーム開発 (2024 年 5 月 〜)
 
-#### 【担当業務】新規アプリ開発/開発環境構築/フロントエンド開発/現行機能の保守運用
+#### 【担当業務】新規アプリケーション開発/開発環境構築/フロントエンド開発/現行機能の保守運用
 
-- Next.js 15 App Routerを使用したアプリ開発
+- Next.js 15 App Routerを使用したアプリケーション開発
 - zxを使ったタスク自動化
 - chromaticでのVRT、playwrightのコンポーネントテストとe2eテストの自動化
 - 社内UIライブラリの作成
@@ -91,7 +91,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pu
 
 #### 【担当業務】開発環境構築/フロントエンド開発/社内共通ライブラリ開発
 
-- Next.js 14 App Routerを使用したアプリ開発
+- Next.js 14 App Routerを使用したアプリケーション開発
 - PNPM、TurboRepoを使用したMono repository開発
 - Storybookを使用したUIカタログ作成
 - Figmaからデザイントークンの作成
@@ -104,7 +104,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pu
 
 #### 【担当業務】開発環境構築/フロントエンド開発/BFF 開発/バックエンド開発/現行機能の保守運用
 
-- Next.jsを使用したアプリ開発、保守運用
+- Next.jsを使用したアプリケーション開発、保守運用
 - NestJSを使用したRest API、GraphQL、gRPC開発、保守運用
 - Rustを使用したgRPC開発、保守運用
 - Yarn Workspace、Lernaを使用したMono repository開発
@@ -120,7 +120,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pu
 
 #### 【担当業務】フロントエンド開発/API 設計/チームリーダー
 
-- Next.js、Reactを使用したアプリ開発
+- Next.js、Reactを使用したアプリケーション開発
 - TurboRepoを使用したMono repository開発
 - OpenAPIを使用したAPI設計
 - TailwindCSSの導入
@@ -177,10 +177,10 @@ ReactにおけるCSSの開発アプローチとして、CSS Modules、Styled Com
 - GCPでのアプリケーション監視
 - Sentryでのアプリケーション監視
 
-業務未経験状態からReact NativeおよびSwiftを習得し、自社開発製品の開発、保守運用を担当しました。営業、ファームウェア、デザイン、およびQA部門と密接に連携を取り、スマートロックの設置フローやユーザー権限管理機能の開発と実装を行いました。
-B2C向けスマートロックアプリケーションの開発に留まらず、B2B向けの不動産管理アプリケーションおよび社内システムの開発しました。
+業務未経験状態からReact Native、swiftを習得し、自社開発製品の開発、保守運用を担当しました。営業、ファームウェア、デザイン、QA部門と密接に連携を取り、スマートロックの設置フローやユーザー権限管理機能の開発と実装を行いました。
+B2C向けスマートロックアプリケーションの開発に留まらず、B2B向けの不動産管理アプリケーションならびに社内システムの開発しました。
 社内システムにおいては、UI/UXに配慮を払いスキューモーフィズムのデザインを採用し、広告部門が独立してキャンペーン通知機能を操作できるように工夫を施しました。
-コンポーネントのモジュラー化を推進し、社内プロジェクト間での再利用性を高めるアーキテクチャを提案および実装しました。
+コンポーネントのモジュラー化を推進し、社内プロジェクト間での再利用性を高めるアーキテクチャを提案実装しました。
 Storybookを導入することでコンポーネントの可視化を実現し、全体でのパッケージ使用率を向上させ、開発速度の最適化に寄与しました。
 
 ### Apple Japan合同会社　(2018 年 11 月 〜 2020 年 4 月)
