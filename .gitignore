@@ -7,3 +7,6 @@ node_modules
 # Log
 yarn-debug.log
 yarn-error.log
+
+# lefthook
+lefthook-local.yaml
