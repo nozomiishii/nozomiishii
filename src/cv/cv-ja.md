@@ -15,7 +15,7 @@
 
 実務においてドキュメントは想定より読まれない、人為的なエラーは避けられないという実体験があります。開発環境をコードベースで設計し、一貫性のあるコーディングスタイルを確立することでこの問題を解決することに長けています。CI/CDの導入、Lint設定、コンポーネントテスト、E2Eテストの自動化等を通じて、手動作業を大幅に軽減し、プロジェクトの品質と効率を同時に向上させています。
 
-新しい技術動向に対する高い興味関心を持っています。近年では特にRustを用いたクロスプラットフォーム開発に注目しています。将来は、電子工学からプロダクトデザインに至るまで、幅広くコンピューターについて一生楽しみながら学び続け、ものづくりをしていきます。
+将来は、電子工学からプロダクトデザインに至るまで、幅広くコンピューターについて一生楽しみながら学び続け、ものづくりをしていきます。
 
 ## 技術
 
@@ -43,35 +43,26 @@ axum | Tokio | SeaORM | Tonic
 
 #### Test
 
-Playwright | Vitest | Testing Library | MSW | Supertest
-
-### GCP
-
-Cloud Run | Cloud Storage | Stackdriver Monitoring | Cloud Logging | Container Registry | Cloud Functions | Firebase | BigQuery
-
-### Monorepo
-
-PNPM | Yarn Workspaces | Lerna | TurboRepo | Nx
+Playwright | Vitest | MSW 
 
 ### その他
 
-GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pusher | TinyMCE | Stripe | Agora | Figma | Jira | Newt | LaunchDarkly | AG Grid | Docsaurous
+GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | Pusher | TinyMCE | Stripe | Agora | Figma | Jira | LaunchDarkly | AG Grid | Fumadocs | Docsaurous
 
 ## 強みが発揮されやすい業務
 
 - React Component設計開発
 - LinterやFormatterの導入
-- PlaywrightでのE2Eテスト自動化
+- PlaywrightでのE2Eテスト導入自動化
+- Vitestを使った単体テスト導入自動化
 - StorybookでのUIカタログ、コンポーネントテスト作成自動化
 - GitHub ActionsでのCI/CDの導入
 - Bash, zxを使ったタスク自動化
 - Git Hooksの導入
-- Vitestを使った単体テスト導入
-- TailwindCSSの導入、開発
 - Monorepo開発
 - GCPでのアプリケーション導入、運用
 - アクセシビリティに配慮した設計
-- Docsaurousでのドキュメント制作
+- Fumadocs, Docsaurousでのドキュメント制作
 - 多言語化
 
 ## 主な業務経歴
@@ -80,12 +71,18 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | SendGrid | Pu
 
 #### 【担当業務】新規アプリケーション開発/開発環境構築/フロントエンド開発/現行機能の保守運用
 
-- Next.js 15 App Routerを使用したアプリケーション開発
+- Next.js 16 App Routerを使用したアプリケーション開発
+- Cursor、Claude Codeを活用したAI支援開発環境の設計・運用・チームへの展開
+- ChromaticでのVRT、PlaywrightによるコンポーネントテストとE2Eテストの自動化
+- 複数プロジェクトで横断的に利用する社内UIライブラリの開発
+- OpenAPIを元にしたコードの自動生成
+- React Server Componentsに対応したi18n環境の構築
 - zxを使ったタスク自動化
-- chromaticでのVRT、playwrightのコンポーネントテストとe2eテストの自動化
-- 社内UIライブラリの作成
-- OpenAPIを元にCodeの自動生成
-- React Server componentsに対応したi18n環境の構築
+- Sentryでの監視環境の構築
+
+新規アプリケーションの設計開発をフロントエンドとして主導しつつ、現行アプリケーションの保守運用も並行して担当しました。新規アプリケーションではNext.js 16 App Routerを採用し、OpenAPIを起点としたコード自動生成によりバックエンドチームとの並行開発を実現しました。
+CursorおよびClaude CodeといったAIツールを開発プロセスに導入し、ルールファイルやプロンプトの設計・整備とその継続的なメンテナンスを通じて、AI支援開発の品質と再現性を担保する仕組みをチーム全体に展開しました。特に単体テスト、コンポーネントテスト、E2Eテストの3層にわたるテスト設計・実装を重視し、AI生成コードを含めた設計意図との整合性を継続的に検証することで、堅牢なアプリケーションの構築を推進しました。
+また、React Server Componentsの制約を考慮したi18n環境を設計し、多言語対応の基盤を整備しました。複数プロジェクトで横断的に利用可能な社内UIライブラリを開発し、プロジェクト間のUI一貫性と開発効率の向上に貢献しました。リリース後の運用ではSentryを導入し、エラーの迅速な検知と原因特定を可能にする監視体制を確立しました。
 
 ### 銀行業界向けデジタルインフラ新規開発 (2023 年 5 月 〜　2024 年 4 月)
 
