@@ -19,35 +19,77 @@
 
 ## 技術
 
-### 言語等
+### 言語
 
-TypeScript | Rust
+TypeScript | Rust | Bash
 
-### フレームワーク等
+### フロントエンド
 
-#### Frontend
+#### フレームワーク
 
-Next.js
+Next.js | React | React Native
 
-### CSS
+#### UI開発
+
+Storybook | Chromatic
+
+#### スタイリング
 
 TailwindCSS | Panda CSS
 
-#### Backend(Node)
+#### アニメーション / クリエイティブコーディング
 
-NestJS | Prisma | TypeORM
+GSAP | Framer Motion | Three.js | p5.js
 
-#### Backend(Rust)
+#### 国際化
+
+next-intl
+
+### バックエンド
+
+#### Node.js
+
+NestJS | Express | Prisma | TypeORM
+
+#### Rust
 
 axum | Tokio | SeaORM | Tonic
 
-#### Test
+### テスト
 
-Playwright | Vitest | MSW 
+Playwright | Vitest | MSW | Chromatic | axe-core
 
-### その他
+### インフラ / クラウド
 
-GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | Pusher | TinyMCE | Stripe | Agora | Figma | Jira | LaunchDarkly | AG Grid | Fumadocs | Docsaurous
+Terraform | Terragrunt | Docker | GCP | Cloudflare | Vercel | Firebase
+
+### CI/CD
+
+GitHub Actions | Renovate | release-please
+
+### 開発環境 / DX
+
+pnpm | Turborepo | Lefthook | zx | scaffdog | Cursor | Claude Code
+
+### リンター / フォーマッター
+
+ESLint | Prettier | textlint | commitlint | cspell | markdownlint | actionlint | secretlint
+
+### スキーマ / バリデーション
+
+Zod | OpenAPI
+
+### 外部サービス
+
+Sentry | Stripe | SendGrid | Pusher | Agora | Vercel Analytics | 1Password
+
+### ドキュメント
+
+Fumadocs | Docusaurus | Notion
+
+### デザイン / プロジェクト管理
+
+Figma | Jira | LaunchDarkly | AG Grid
 
 ## 強みが発揮されやすい業務
 
@@ -62,7 +104,7 @@ GitHub Actions | Lefthook | Docker | Terraform | Sentry | Vercel | Pusher | Tiny
 - Monorepo開発
 - GCPでのアプリケーション導入、運用
 - アクセシビリティに配慮した設計
-- Fumadocs, Docsaurousでのドキュメント制作
+- Fumadocs, Docusaurusでのドキュメント制作
 - 多言語化
 
 ## 主な業務経歴
