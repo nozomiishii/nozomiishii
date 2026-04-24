@@ -1,7 +1,7 @@
 # 🦕 Nozomi Ishii
 
-![BackGround Image](../assets/images/background.png)
+![BackGround Image](https://raw.githubusercontent.com/nozomiishii/.github/main/assets/images/background.png)
 
 ## 職務経歴書 | CV
 
-[日本語](../src/cv/cv-ja.md)
+[日本語](https://github.com/nozomiishii/.github/blob/main/src/cv/cv-ja.md)
